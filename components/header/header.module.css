@@ -13,7 +13,7 @@
 .command:hover,
 .command:focus {
   outline: none;
-  background: var(--lighter-gray);
+  background: var(--accent);
 }
 
 .command {

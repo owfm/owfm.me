@@ -13,7 +13,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 
 - **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.
 - **In-house client**: single page web-app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners _(React/Redux, Amplify, amCharts, CI/CD with AWS Codebuild)_
-- **Client API** :The REST API serving the webapps. Exposes the interface to our database and implements the service that generates our personalised exam papers _(Python, Serverless Framework, Reportlab, AWS Lambda, S3, API Gateway, Cognito)_
+- **Client API** :The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers _(Python, Serverless Framework, Reportlab, AWS Lambda, S3, API Gateway, Cognito)_
 - **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates _(Lambda, Node, CloudFormation, Rekognition, AWS Step Functions, DynamoDb, SES, CI/CD with Seed)_
 
 ---
