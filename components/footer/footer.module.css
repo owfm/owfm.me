@@ -9,6 +9,10 @@
   max-width: var(--main-content);
 }
 
-.footer a + a {
+.footer a {
   margin-left: var(--gap);
+}
+
+.footer span {
+  margin-right: var(--gap);
 }

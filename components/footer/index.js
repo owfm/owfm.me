@@ -6,6 +6,7 @@ const Footer = ({ slug }) => {
     <>
       <footer className={styles.footer}>
         <div>
+          <span>Ollie Mansell | London UK</span>
           <Link href="mailto:hi@olliemansell.co.uk" external gray>
             email
           </Link>
@@ -16,9 +17,6 @@ const Footer = ({ slug }) => {
             medium
           </Link>
         </div>
-        {/* <Link href="/feed.xml" external gray>
-          rss
-        </Link> */}
       </footer>
       {/* <footer className={styles.footer}>
         <div />
