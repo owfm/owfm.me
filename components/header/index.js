@@ -30,7 +30,7 @@ const Header = ({ slug, title }) => {
                 <span style={{ color: 'var(--accent)' }}>{title}</span>
               </b>
             ) : (
-              <>ollie mansell's&nbsp;personal&nbsp;site</>
+              <>ollie mansell's&nbsp;CV</>
             )}
           </span>
         </span>

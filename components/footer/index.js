@@ -16,9 +16,9 @@ const Footer = ({ slug }) => {
             medium
           </Link>
         </div>
-        <Link href="/feed.xml" external gray>
+        {/* <Link href="/feed.xml" external gray>
           rss
-        </Link>
+        </Link> */}
       </footer>
       {/* <footer className={styles.footer}>
         <div />

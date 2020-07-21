@@ -118,6 +118,14 @@ li {
   font-size: 1.125rem;
 }
 
+strong {
+  color: var(--accent);
+}
+
+ol li {
+  display: inline;
+}
+
 h1,
 h2,
 h3,
