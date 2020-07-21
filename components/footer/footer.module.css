@@ -14,5 +14,6 @@
 }
 
 .footer span {
-  margin-right: var(--gap);
+  font-weight: 600;
+  color: var(--grey);
 }

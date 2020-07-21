@@ -6,7 +6,7 @@ const Footer = ({ slug }) => {
     <>
       <footer className={styles.footer}>
         <div>
-          <span>Ollie Mansell | London UK</span>
+          <span>ollie mansell</span>
           <Link href="mailto:hi@olliemansell.co.uk" external gray>
             email
           </Link>
