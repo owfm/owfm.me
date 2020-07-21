@@ -8,14 +8,14 @@ order: 2
 
 - JS
 - Node
+- ES6/ES7
 - Python
 - AWS Lambda
 - Serverless Framework
-- Docker
 - React/Redux
 - CloudFormation
+- Docker
 - NoSQL
-- ES6/ES7
 - Jest
 - Pytest
 - CloudFront

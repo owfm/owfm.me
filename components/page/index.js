@@ -16,7 +16,7 @@ const Page = ({
   return (
     <div className={styles.wrapper}>
       <SEO
-        title={`${title ? `Ollie Mansell ・  ${title}?` : 'Ollie Mansell'}`}
+        title={`${title ? `Ollie Mansell ・  ${title}` : 'Ollie Mansell'}`}
         description={description}
         image={image}
       />
