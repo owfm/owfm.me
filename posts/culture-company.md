@@ -9,4 +9,4 @@ order: 6
 
 I want to work in a company with a **strong team ethos**, with knowledge-sharing and **high code-quality** (through pair programming, code-review, TDD, CI/CD) central to the culture.
 
-During my diverse experience working in different teams and across industries, I have had the opportunity to develop excellent skills in communication, teamwork, and leadership and I would add huge value to your multidisciplinary team.
+During my diverse experience working in different teams and across industries, I have had the opportunity to develop excellent skills in communication, teamwork, and leadership and I would add huge value to your multidisciplinary team. If you think you agree, [I'd love to hear from you](mailto:hi@ollimansell.co.uk).
