@@ -9,6 +9,11 @@ order: 4
 
 > 2015-present, Holy Family Catholic School
 
+1. Mentoring
+2. Leadership
+3. Communication
+4. Education
+
 I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a Specialist Leader in Education (SLE) for Physics in 2019, and in that role have **delivered many training and coaching sessions** supporting non-specialist physics teachers. **I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers** by the University of Cantebury.
 
 I’m proud that my A-level students’ progress has been recognised as being in the **top 10% nationally** (via ALPS) in 3 of the last 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.
@@ -18,5 +23,9 @@ I’m proud that my A-level students’ progress has been recognised as being in
 ## Oil and Gas Technical Safety and Risk Engineer || Nuclear Technical Safety and Risk Consultant
 
 > Xodus Group, Perth Australia (2011–2014) || RPS Risk Management, Warrington UK (2008–2011)
+
+1. Complexity
+2. Technical Authoring
+3. Communication
 
 As a risk consultant I worked with colleagues and embedded in client teams on **large, high-hazard and highly regulated process industry projects**. We were tasked with analysing complex systems using a breadth of techniques and software to assess risks associated with fault conditions, and thus demonstrate acceptability of risk to regulators. In these jobs—as in software development—**clear, unambiguous communication in complex contexts** was essential.
