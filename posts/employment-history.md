@@ -24,8 +24,9 @@ I’m proud that my A-level students’ progress has been recognised as being in
 
 > Xodus Group, Perth Australia (2011–2014) || RPS Risk Management, Warrington UK (2008–2011)
 
-1. Complexity
+1. Risk Management
 2. Technical Authoring
-3. Communication
+3. Managing Complexity
+4. Communication
 
 As a risk consultant I worked with colleagues and embedded in client teams on **large, high-hazard and highly regulated process industry projects**. We were tasked with analysing complex systems using a breadth of techniques and software to assess risks associated with fault conditions, and thus demonstrate acceptability of risk to regulators. In these jobs—as in software development—**clear, unambiguous communication in complex contexts** was essential.
