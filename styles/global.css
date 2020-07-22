@@ -123,7 +123,7 @@ strong {
 }
 
 ol li {
-  display: inline;
+  display: inline-block;
 }
 
 h1,
@@ -168,10 +168,11 @@ hr {
 }
 
 blockquote {
-  font-style: italic;
+  font-style: oblique;
+  font-size: 1.2rem;
   margin: 0;
-  padding-left: 1rem;
-  border-left: 3px solid var(--light-gray);
+  margin-top: -2rem;
+  /* border-left: 3px solid var(--light-gray); */
   transition: border-color var(--transition);
 }
 

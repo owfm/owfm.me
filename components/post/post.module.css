@@ -6,3 +6,12 @@
 .title {
   margin-top: 1rem;
 }
+
+/* li {
+  display: inline-block;
+  background: var(--fg);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+} */

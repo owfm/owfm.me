@@ -14,7 +14,6 @@ article p {
 
 article img {
   max-width: 100%;
-  /* width: var(--main-content); */
   width: auto;
   margin: auto;
   display: block;
@@ -30,8 +29,28 @@ article ul {
 }
 
 article ol {
+  margin-top: -1.2rem;
   padding: 0;
   list-style-position: inside;
+}
+
+article ol li {
+  background: var(--accent);
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  color: var(--lightest-gray);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  padding: 0rem 0.3rem;
+  margin-bottom: 0.2rem;
+}
+article ol::before {
+  margin-bottom: 0;
+}
+
+article ol li:not(:first-child) {
+  margin-right: 0.5rem;
 }
 
 article ul li.reset {
