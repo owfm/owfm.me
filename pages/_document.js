@@ -10,6 +10,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="theme-color" content="#ffffff" />{' '}
+          <meta
+            name="google-site-verification"
+            content="xBu6h2_OnbYaav5YIrtnN_4JdYBvEJoiTNrUB2JhDQM"
+          />
         </Head>
         <body>
           <script
