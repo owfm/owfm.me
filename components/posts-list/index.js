@@ -6,8 +6,6 @@ import styles from './posts-list.module.css'
 const Posts = ({ slug, posts, paginate }) => {
   const [showMore, setShowMore] = useState(3)
 
-  console.log(posts)
-
   return (
     <>
       <ul className={styles.container}>
