@@ -20,7 +20,7 @@ const Header = ({ slug, title }) => {
               aria-label="Navigate Home"
               className={slug ? styles.home : styles.slug}
             >
-              owfm
+              ollie mansell
             </a>
           </Link>
           <span className={styles.tagline}>

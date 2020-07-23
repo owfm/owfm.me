@@ -19,11 +19,9 @@ Router.events.on('routeChangeError', () => {
 
 import '@styles/global.css'
 
-class MyApp extends App {
+export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return <Component {...pageProps} />
   }
 }
-
-export default MyApp
