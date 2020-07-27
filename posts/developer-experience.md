@@ -13,7 +13,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 
 ### Services implemented:
 
-- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.
+- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time
 - **In-house client**: single page web-app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners
 
 1. React/Redux
@@ -31,7 +31,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 6. API&nbsp;Gateway
 7. Cognito
 
-- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates
+- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates. Implemented using Serverless Framework and Step Functions **[see this article]**(https://medium.com/swlh/how-to-add-human-decision-making-into-automated-workflows-using-aws-step-functions-serverless-46c0a3412fe4)
 
 1. Lambda
 2. Node
