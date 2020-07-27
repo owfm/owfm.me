@@ -9,7 +9,9 @@ export default () => {
         <div>
           <span>Fullstack Javascript, Node and Python Engineer</span>
           <br />
-          <p>Currently looking for new opportunities</p>
+          <p>
+            Currently looking for new EdTech opportunities in London. <br />
+          </p>
         </div>
       </div>
       <hr className={styles.horizontal} />
