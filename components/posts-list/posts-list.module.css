@@ -24,3 +24,19 @@
 .button:active {
   background-color: var(--lightest-gray);
 }
+
+.topline {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  /* line-height: 1; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.topline span {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.3rem;
+}

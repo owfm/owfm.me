@@ -8,6 +8,13 @@ const Posts = ({ slug, posts, paginate }) => {
 
   return (
     <>
+      <p className={styles.topline}>
+        <hr />
+        <span>Fullstack Javascript, Node and Python Engineer</span>
+        <br />
+        Currently looking for new opportunities
+        <hr />
+      </p>
       <ul className={styles.container}>
         {posts
           .slice(0, paginate ? showMore : undefined)
