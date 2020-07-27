@@ -7,11 +7,10 @@ export default () => {
       <div className={styles.container}>
         <img src={'./profile-pic.jpg'} alt={`Ollie Mansell`} />
         <div>
-          <span>Fullstack Javascript, Node and Python Engineer</span>
-          <br />
-          <p>
+          <h1>Fullstack Javascript, Node and Python Engineer</h1>
+          <h3>
             Currently looking for new EdTech opportunities in London. <br />
-          </p>
+          </h3>
         </div>
       </div>
       <hr className={styles.horizontal} />

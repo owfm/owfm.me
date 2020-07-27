@@ -3,6 +3,7 @@
   align-items: center;
   padding: 0;
   margin: 0.8rem 0;
+  transition: ease all 0.5s;
 }
 
 .horizontal {
@@ -22,46 +23,29 @@
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: normal;
-  line-height: 1.2;
+  line-height: 1;
   margin: 0;
   padding: 0;
 }
 
-.container p {
-  margin: 1rem 0 0 0;
+.container h3 {
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0.5rem 0;
+  line-height: 1.5rem;
+  /* margin: 1rem 0 0 0; */
   font-size: 1.3rem;
 }
 
-.container span {
+.container h1 {
+  margin: 0;
+  padding: 0;
   color: var(--accent);
   font-weight: 700;
   font-size: 1.4rem;
-  margin-bottom: 2rem;
 }
 
 .layout {
   margin-bottom: 4rem;
-}
-
-@media screen and (max-width: 500px) {
-  /* .container img {
-    width: 4rem;
-    height: 4rem;
-  }
-  .container {
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .container p {
-    font-size: 1rem;
-    margin: 0;
-  }
-  .container span {
-    font-size: 1.2rem;
-    line-height: 3rem; */
-  /* margin-bottom: 1.5rem; */
-  /* padding: 0; */
-  /* } */
 }
