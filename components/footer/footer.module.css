@@ -9,7 +9,7 @@
   max-width: var(--main-content);
 }
 
-.footer a {
+.footer a:not(:first-child) {
   margin-left: var(--gap);
 }
 

@@ -21,11 +21,6 @@ const Footer = ({ slug }) => {
           </Link>
         </div>
       </footer>
-      {/* <footer className={styles.footer}>
-        <div />
-        Forked from Dan Abramov's whatthefuck.is
-        <div />
-      </footer> */}
     </>
   )
 }
