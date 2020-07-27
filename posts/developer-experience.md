@@ -31,7 +31,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 6. API&nbsp;Gateway
 7. Cognito
 
-- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates. Implemented using Serverless Framework and Step Functions **[see this article]**(https://medium.com/swlh/how-to-add-human-decision-making-into-automated-workflows-using-aws-step-functions-serverless-46c0a3412fe4)
+- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates. Implemented using [Serverless Framework and Step Functions](https://medium.com/swlh/how-to-add-human-decision-making-into-automated-workflows-using-aws-step-functions-serverless-46c0a3412fe4)
 
 1. Lambda
 2. Node
