@@ -5,7 +5,27 @@ import { themeStorageKey } from '@lib/theme'
 const bgVariableName = '--bg'
 
 class MyDocument extends Document {
+  static async getInitialProps(ctx) {
+    // Check if in production
+    const isProduction = process.env.NODE_ENV === 'production'
+    const initialProps = await Document.getInitialProps(ctx)
+    // Pass isProduction flag back through props
+    return { ...initialProps, isProduction }
+  }
+
+  setGoogleTags() {
+    return {
+      __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173638079-1');
+      `
+    }
+  }
   render() {
+    const { isProduction } = this.props
     return (
       <Html lang="en">
         <Head>
@@ -39,6 +59,16 @@ class MyDocument extends Document {
           />
           <Main />
           <NextScript />
+          {isProduction && (
+            <Fragment>
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-173638079-1"
+              />
+              {/* We call the function above to inject the contents of the script tag */}
+              <script dangerouslySetInnerHTML={this.setGoogleTags()} />
+            </Fragment>
+          )}
         </body>
       </Html>
     )

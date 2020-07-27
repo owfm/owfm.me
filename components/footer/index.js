@@ -16,6 +16,9 @@ const Footer = ({ slug }) => {
           <Link href="https://medium.com/@oliverwfmansell" external gray>
             medium
           </Link>
+          <Link href="https://www.codewars.com/users/owfm" external gray>
+            codewars
+          </Link>
         </div>
       </footer>
       {/* <footer className={styles.footer}>
