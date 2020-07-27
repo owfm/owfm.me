@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import TextEntry from '@components/entry/text'
+import Bio from '@components/bio'
 import styles from './posts-list.module.css'
 
 const Posts = ({ slug, posts, paginate }) => {
@@ -8,13 +9,7 @@ const Posts = ({ slug, posts, paginate }) => {
 
   return (
     <>
-      <p className={styles.topline}>
-        <hr />
-        <span>Fullstack Javascript, Node and Python Engineer</span>
-        <br />
-        Currently looking for new opportunities
-        <hr />
-      </p>
+      <Bio />
       <ul className={styles.container}>
         {posts
           .slice(0, paginate ? showMore : undefined)
