@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[whatthefuck.is]]></title>
+        <description><![CDATA[whatthefuck.is]]></description>
+        <link>https://whatthefuck.is</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 27 Jul 2020 07:38:20 GMT</lastBuildDate>
+        <atom:link href="https://whatthefuck.is/feed.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[culture and company fit]]></title>
+            <description><![CDATA[<p><strong>I’m a passionate believer in the power of education, the importance of sustainability, and ensuring equal opportunities in our society</strong>. I want to work in a company that embodies those ideals, not just in their rhetoric but in their choices about CSR, hiring, and the projects they’re engaged in.</p>
+<p>I want to work in a company with a <strong>strong team ethos</strong>, with knowledge-sharing and <strong>high code-quality</strong> (through pair programming, code-review, TDD, CI/CD) central to the culture.</p>
+<p>During my diverse experience working in different teams and across industries, I have had the opportunity to develop excellent skills in communication, teamwork, and leadership and I would add huge value to your multidisciplinary team. If you think you agree, <a href="mailto:hi@ollimansell.co.uk" target="_blank" rel="noopener noreferrer">I&#39;d love to hear from you</a>.</p>
+]]></description>
+            <link>https://whatthefuck.is/culture-fit</link>
+            <guid isPermaLink="false">https://whatthefuck.is/culture-fit</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[developer experience]]></title>
+            <description><![CDATA[<h2 id="stylus-education-london">Stylus Education, London</h2>
+<blockquote>
+<p>freelance, Jan 2019-present</p>
+</blockquote>
+<p>As a key member of the Stylus Education team, I have built and deployed the <strong>Node, Python and React/Redux architecture</strong> for this London EdTech start-up. The company supports science, English and maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports.</p>
+<h3 id="services-implemented">Services implemented:</h3>
+<ul>
+<li><strong>Customer Dashboard</strong>: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.</li>
+<li><strong>In-house client</strong>: single page web-app to allow staff to monitor and execute product workflows. It includes a drag &amp; drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners</li>
+</ul>
+<ol>
+<li>React/Redux</li>
+<li>Amplify</li>
+<li>amCharts</li>
+<li>CI/CD&nbsp;with&nbsp;AWS&nbsp;Codebuild</li>
+</ol>
+<ul>
+<li><strong>Client API</strong>: The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers</li>
+</ul>
+<ol>
+<li>Python</li>
+<li>Serverless&nbsp;Framework</li>
+<li>Reportlab</li>
+<li>AWS&nbsp;Lambda</li>
+<li>S3</li>
+<li>API&nbsp;Gateway</li>
+<li>Cognito</li>
+</ol>
+<ul>
+<li><strong>Paper Processing Service</strong>: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates</li>
+</ul>
+<ol>
+<li>Lambda</li>
+<li>Node</li>
+<li>CloudFormation</li>
+<li>Rekognition</li>
+<li>AWS Step Functions</li>
+<li>DynamoDb</li>
+<li>SES</li>
+<li>CI/CD with Seed</li>
+</ol>
+<h2 id="finura-partners-london">Finura Partners, London</h2>
+<blockquote>
+<p>freelance, 2019</p>
+</blockquote>
+<p>This successful London financial services company employed me to streamline how their financial advisors get new business prospects into their in-house tracker. After consulting with them on their requirements I delivered:</p>
+<ul>
+<li><strong>Frontend SPA</strong> A web-app composed of a Formik form with dynamic fields and validation schema</li>
+</ul>
+<ol>
+<li>React</li>
+<li>Formik</li>
+<li>Amplify</li>
+</ol>
+<ul>
+<li><strong>Backend API</strong> A REST API which securely updates their internal tracking system using the Google Apps APIs</li>
+</ul>
+<ol>
+<li>AWS Lambda</li>
+<li>API Gateway</li>
+<li>Python</li>
+</ol>
+<p>The directors reported that the app has significantly reduced both overheads and errors associated with performing the tasks manually.</p>
+<h2 id="airtable-python-wrapper">Airtable Python Wrapper</h2>
+<blockquote>
+<p>open source contributor, 2020</p>
+</blockquote>
+<p>Through using this library for my project work I identified and implemented a way to make certain batch operations <a href="https://github.com/gtalarico/airtable-python-wrapper/pull/88" target="_blank" rel="noopener noreferrer"><strong>≈10x faster than the previous implementation</strong></a>.</p>
+<ol>
+<li>Python</li>
+<li>Tox</li>
+<li>Pytest</li>
+</ol>
+]]></description>
+            <link>https://whatthefuck.is/developer-experience</link>
+            <guid isPermaLink="false">https://whatthefuck.is/developer-experience</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[education]]></title>
+            <description><![CDATA[<ul>
+<li><strong>Master’s Degree in Physics and Astronomy</strong> (1st class) | <em>University of Manchester</em></li>
+<li><strong>Postgraduate Certificate of Education</strong> | <em>UCL Institute of Education</em></li>
+<li><strong>Physics (A), Chemistry (A), Maths (A) A-Levels</strong> | <em>Nottingham High School</em></li>
+</ul>
+]]></description>
+            <link>https://whatthefuck.is/education</link>
+            <guid isPermaLink="false">https://whatthefuck.is/education</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Fri, 10 Jul 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[employment history]]></title>
+            <description><![CDATA[<h2 id="teacher-of-physics-head-of-key-stage-5-science-specialist-leader-in-education-sle-for-physics">Teacher of Physics, Head of Key Stage 5 Science, Specialist Leader in Education (SLE) for Physics</h2>
+<blockquote>
+<p>2015-present, Holy Family Catholic School</p>
+</blockquote>
+<ol>
+<li>Mentoring</li>
+<li>Leadership</li>
+<li>Communication</li>
+<li>Education</li>
+</ol>
+<p>I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a Specialist Leader in Education (SLE) for Physics in 2019, and in that role have <strong>delivered many training and coaching sessions</strong> supporting non-specialist physics teachers. <strong>I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers</strong> by the University of Cantebury.</p>
+<p>I’m proud that my A-level students’ progress has been recognised as being in the <strong>top 10% nationally</strong> (via ALPS) in 3 of the last 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.</p>
+<p><strong>I am passionate about sustainability and social justice</strong>. Last year, I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. <strong>I care deeply about female and BAME representation in STEM subjects</strong>, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.</p>
+<h2 id="oil-and-gas-technical-safety-and-risk-engineer--nuclear-technical-safety-and-risk-consultant">Oil and Gas Technical Safety and Risk Engineer || Nuclear Technical Safety and Risk Consultant</h2>
+<blockquote>
+<p>Xodus Group, Perth Australia (2011–2014) || RPS Risk Management, Warrington UK (2008–2011)</p>
+</blockquote>
+<ol>
+<li>Risk Management</li>
+<li>Technical Authoring</li>
+<li>Managing Complexity</li>
+<li>Communication</li>
+</ol>
+<p>As a risk consultant I worked with colleagues and embedded in client teams on <strong>large, high-hazard and highly regulated process industry projects</strong>. We were tasked with analysing complex systems using a breadth of techniques and software to assess risks associated with fault conditions, and thus demonstrate acceptability of risk to regulators. In these jobs—as in software development—<strong>clear, unambiguous communication in complex contexts</strong> was essential.</p>
+]]></description>
+            <link>https://whatthefuck.is/employment-history</link>
+            <guid isPermaLink="false">https://whatthefuck.is/employment-history</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[key skills]]></title>
+            <description><![CDATA[<ul>
+<li>JS</li>
+<li>Node</li>
+<li>ES6/ES7</li>
+<li>Python</li>
+<li>AWS Lambda</li>
+<li>Serverless Framework</li>
+<li>React/Redux</li>
+<li>CloudFormation</li>
+<li>Docker</li>
+<li>NoSQL</li>
+<li>Jest</li>
+<li>Pytest</li>
+<li>CloudFront</li>
+<li>git</li>
+</ul>
+]]></description>
+            <link>https://whatthefuck.is/key-skills</link>
+            <guid isPermaLink="false">https://whatthefuck.is/key-skills</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Fri, 10 Jul 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[profile]]></title>
+            <description><![CDATA[<p>A <strong>highly numerate software engineer</strong> with a <strong>strong background in physics and maths</strong> and a breadth of experience across technology, process engineering and education. I love learning new technologies, gritty technical challenges and solving complex problems.</p>
+]]></description>
+            <link>https://whatthefuck.is/profile</link>
+            <guid isPermaLink="false">https://whatthefuck.is/profile</guid>
+            <dc:creator><![CDATA[Dan Abramov]]></dc:creator>
+            <pubDate>Fri, 10 Jul 2020 23:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

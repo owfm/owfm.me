@@ -60,14 +60,13 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           {isProduction && (
-            <Fragment>
+            <>
               <script
                 async
                 src="https://www.googletagmanager.com/gtag/js?id=UA-173638079-1"
               />
-              {/* We call the function above to inject the contents of the script tag */}
               <script dangerouslySetInnerHTML={this.setGoogleTags()} />
-            </Fragment>
+            </>
           )}
         </body>
       </Html>
