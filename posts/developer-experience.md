@@ -14,7 +14,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 ### Services implemented:
 
 - **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time
-- **In-house client**: single page web-app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners
+- **In-house client**: single page web app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners
 
 1. React/Redux
 2. Amplify
@@ -48,7 +48,7 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 
 This successful London financial services company employed me to streamline how their financial advisors get new business prospects into their in-house tracker. After consulting with them on their requirements I delivered:
 
-- **Frontend SPA** A web-app composed of a Formik form with dynamic fields and validation schema
+- **Frontend SPA** A web app composed of a Formik form with dynamic fields and validation schema
 
 1. React
 2. Formik
