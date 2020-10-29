@@ -7,10 +7,9 @@ export default () => {
       <div className={styles.container}>
         <img src={'./profile-pic.jpg'} alt={`Ollie Mansell`} />
         <div>
-          <h1>Fullstack Javascript, Node and Python Engineer</h1>
+          <h1>Full Stack Javascript, Node and Python Engineer</h1>
           <h3>
-            Excited to be joining <strong>StoneX</strong> in a full-stack role
-            in November.
+            Excited to be joining the development teacm at <strong>StoneX</strong> in November.
             <br />
           </h3>
         </div>
