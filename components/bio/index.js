@@ -9,7 +9,7 @@ export default () => {
         <div>
           <h1>Full Stack Javascript, Node and Python Engineer</h1>
           <h3>
-            Excited to be joining the development teacm at <strong>StoneX</strong> in November.
+            Excited to be joining the development team at <strong>StoneX</strong> in November.
             <br />
           </h3>
         </div>
