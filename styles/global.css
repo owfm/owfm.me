@@ -28,17 +28,17 @@
 
 :root {
   /* Dark Mode Colors */
-  --bg: rgb(0, 20, 41);
-  --fg: rgb(255, 231, 231);
+  --bg: rgb(0, 8, 17);
+  --fg: rgb(216, 216, 216);
   --gray: #888;
   --light-gray: #444;
   --lighter-gray: #222;
   --lightest-gray: #1a1a1a;
   --article-color: #eaeaea;
-  --header-bg: rgb(0, 20, 41);
+  --header-bg: rgb(0, 8, 17);
   --gray-alpha: rgba(255, 255, 255, 0.5);
   --selection: rgba(255, 255, 255, 0.99);
-  --accent: #ffcd41;
+  --accent: #ffdf88;
   --lighter-accent: #fff3bd;
 
   /* Syntax Highlighting */

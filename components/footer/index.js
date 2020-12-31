@@ -19,6 +19,9 @@ const Footer = ({ slug }) => {
           <Link href="https://www.codewars.com/users/owfm" external gray>
             codewars
           </Link>
+          <Link href="/about" gray>
+            about
+          </Link>
         </div>
       </footer>
     </>
