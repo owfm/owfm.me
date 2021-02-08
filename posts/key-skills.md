@@ -1,22 +1,21 @@
 ---
 title: key skills
 slug: key-skills
-date: July 11, 2020
+date: Feb 8, 2021
 category: key skills
 order: 2
 ---
 
-- JS
+- Javascript/Typescript
 - Node
-- ES6/ES7
-- Python
-- AWS Lambda
-- Serverless Framework
-- React/Redux
-- CloudFormation
+- React
 - Docker
-- NoSQL
+- ES6/ES7
+- Apache Kafka
+- Kubernetes
+- Serverless Framework
 - Jest
-- Pytest
+- CloudFormation
+- AWS Lambda
 - CloudFront
 - git
