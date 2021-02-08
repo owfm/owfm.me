@@ -12,7 +12,7 @@ order: 2
 - Docker
 - ES6/ES7
 - Apache Kafka
-- Kubernetes
+- Kubernetes w/ Helm
 - Serverless Framework
 - Jest
 - CloudFormation
