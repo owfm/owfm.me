@@ -6,16 +6,11 @@ category: key skills
 order: 2
 ---
 
-- Javascript/Typescript
+- JavaScript (ES6/ES7)
+- Typescript
 - Node
 - React
 - Docker
-- ES6/ES7
 - Apache Kafka
-- Kubernetes w/ Helm
-- Serverless Framework
+- K8s w/ Helm
 - Jest
-- CloudFormation
-- AWS Lambda
-- CloudFront
-- git
