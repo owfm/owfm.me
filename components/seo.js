@@ -1,8 +1,8 @@
 import NextHead from 'next/head'
 
 const Head = ({
-  title = 'whatthefuck.is',
-  description = 'Dan’s JavaScript Glossary',
+  title = 'olliemansell.co.uk',
+  description = 'Ollie Mansell CV',
   image,
   children
 }) => {
@@ -20,9 +20,8 @@ const Head = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
 
-      <meta name="twitter:site" content="@dan_abramov" />
-      <meta name="apple-mobile-web-app-title" content="whatthefuck.is" />
-      <meta name="author" content="Dan Abramov" />
+      <meta name="apple-mobile-web-app-title" content="olliemansell.co.uk" />
+      <meta name="author" content="Ollie Mansell" />
 
       {/* RSS feed */}
       <link

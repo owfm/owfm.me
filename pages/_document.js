@@ -13,17 +13,6 @@ class MyDocument extends Document {
     return { ...initialProps, isProduction }
   }
 
-  setGoogleTags() {
-    return {
-      __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-173638079-1');
-      `
-    }
-  }
   render() {
     const { isProduction } = this.props
     return (
@@ -59,15 +48,6 @@ class MyDocument extends Document {
           />
           <Main />
           <NextScript />
-          {isProduction && (
-            <>
-              <script
-                async
-                src="https://www.googletagmanager.com/gtag/js?id=UA-173638079-1"
-              />
-              <script dangerouslySetInnerHTML={this.setGoogleTags()} />
-            </>
-          )}
         </body>
       </Html>
     )
