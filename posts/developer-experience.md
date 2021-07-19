@@ -5,11 +5,42 @@ category: dev
 order: 3
 ---
 
+## StoneX, London
+
+> fulltime, Nov 2020-present
+
+StoneX is a Fortune 100 multinational which provides commodity trading services to a wide variety of clients. As a member of the development team supporting the Metals Front Office, my role has mainly been on greenfield projects developing services in support of the base- and precious-metal trading and operations staff.
+
+### Selected projects:
+
+- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our teams CI/CD pipeline templates. The project required re-writing both our standard Dockerfiles and jest configuration to allow the running of unit tests inside docker containers and publishing of test artifacts. The project also added automated SemVer management for our services, including Dockerfile and git tagging with application versions to improve the visibility of the code running in production.
+
+1. Azure DevOps
+2. CI/CD
+3. Docker
+4. Jest
+
+- **Trade Blotter**: A React micro-frontend allowing the user to perform complex search queries on a trade information API, which is then presented to the user in a sortable/filterable/searchable table view.
+
+1. React
+1. Typescript
+1. AG-Grid
+
+- **Credit Optimisation Tool**: A data exploration tool built in React using Highcharts, and an express backend-for-frontend service performing data-fetching and aggregation from multiple internal data sources, including a data lake, SQL tables, and other business streams. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
+
+1. React / Express
+1. Typescript
+1. Highcharts
+1. Express
+1. SQL, MongoDB, Postgres
+
+- **SonarQube Integration**: I have overseen our team's integration with SonarQube for static code-checking and code-quality checks, incorporating it into our PR and CI/CD workflow.
+
 ## Stylus Education, London
 
 > freelance, Jan 2019-present
 
-As a key member of the Stylus Education team, I have built and deployed the **Node, Python and React/Redux architecture** for this London EdTech start-up. The company supports science, English and maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports.
+As a key member of the Stylus Education team, I have built and deployed the **Node, Python and React/Redux architecture** for this London EdTech start-up. The company supports science, English and maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports. (Note: as of mid-2021, Stylus is no longer trading).
 
 ### Services implemented:
 

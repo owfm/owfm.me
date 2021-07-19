@@ -6,8 +6,7 @@ category: key skills
 order: 2
 ---
 
-- JavaScript (ES6/ES7)
-- Typescript
+- JavaScript and Typescript (ES6/ES7)
 - Node
 - React
 - Docker
