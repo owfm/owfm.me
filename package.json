@@ -4,8 +4,7 @@
   "scripts": {
     "lint": "prettier --write '**/*.js'",
     "dev": "next-remote-watch posts",
-    "build": "yarn rss && next build",
-    "rss": "node lib/rss"
+    "build": "next build"
   },
   "pre-commit": "lint",
   "license": "MIT",
