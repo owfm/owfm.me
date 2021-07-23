@@ -9,11 +9,19 @@ order: 3
 
 > fulltime, Nov 2020-present
 
-StoneX is a Fortune 100 multinational which provides commodity trading services to a wide variety of clients. As a member of the development team supporting the Metals Front Office, my role has mainly been on greenfield projects developing services in support of the base- and precious-metal trading and operations staff.
+StoneX is a Fortune 100 multinational which provides commodity trading services to a wide variety of clients. As a member of the development team supporting the metals front office, my role has mainly been on greenfield projects developing services in support of the base- and precious-metal trading and operations staff.
 
 ### Selected projects:
 
-- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our teams CI/CD pipeline templates. The project required re-writing both our standard Dockerfiles and jest configuration to allow the running of unit tests inside docker containers and publishing of test artifacts. The project also added automated SemVer management for our services, including Dockerfile and git tagging with application versions to improve the visibility of the code running in production.
+- **Credit Optimisation Tool**: A data exploration tool built in React/Typescript, with an express backend service acting as a cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
+
+1. React / Express
+1. Typescript
+1. Highcharts
+1. Express
+1. SQL, MongoDB, Postgres
+
+- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our teams CI/CD pipelines. This improvement allowed higher fidelity unit-testing inside replica production containers, as well as adding automated SemVer management for all our microservice containers.
 
 1. Azure DevOps
 2. CI/CD
@@ -25,14 +33,6 @@ StoneX is a Fortune 100 multinational which provides commodity trading services 
 1. React
 1. Typescript
 1. AG-Grid
-
-- **Credit Optimisation Tool**: A data exploration tool built in React using Highcharts, and an express backend-for-frontend service performing data-fetching and aggregation from multiple internal data sources, including a data lake, SQL tables, and other business streams. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
-
-1. React / Express
-1. Typescript
-1. Highcharts
-1. Express
-1. SQL, MongoDB, Postgres
 
 - **SonarQube Integration**: I have overseen our team's integration with SonarQube for static code-checking and code-quality checks, incorporating it into our PR and CI/CD workflow.
 

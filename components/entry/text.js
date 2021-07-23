@@ -6,12 +6,12 @@ import styles from './text.module.css'
 
 // prettier-ignore
 const categories = {
-  'profile': '🤝',
-  'education': '🎓',
-  'dev': '🐞 ',
-  'employment': '🔨 ',
-  'key skills': '🤹 ',
-  'culture': '💡 '
+  'profile': ' ',
+  'education': ' ',
+  'dev': ' ',
+  'employment': ' ',
+  'key skills': ' ',
+  'culture': ' '
 }
 
 const request = ['🙋🏻', '🙋🏼', '🙋🏽', '🙋🏾', '🙋🏿']
