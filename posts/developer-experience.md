@@ -44,15 +44,15 @@ As a key member of the Stylus Education team, I have built and deployed the **No
 
 ### Services implemented:
 
-- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time
-- **In-house client**: single page web app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners
+- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.
+- **In-house client**: single page web app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners.
 
 1. React/Redux
 2. Amplify
 3. amCharts
 4. CI/CD&nbsp;with&nbsp;AWS&nbsp;Codebuild
 
-- **Client API**: The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers
+- **Client API**: The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers.
 
 1. Python
 2. Serverless&nbsp;Framework
