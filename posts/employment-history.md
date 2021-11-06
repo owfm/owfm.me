@@ -33,7 +33,7 @@ I have a deep passion for physics and have had a very rewarding five years shari
 
 I’m proud that my A-level students’ progress has been recognised as being in the **top 10% nationally** (via ALPS) in 3 of the last 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.
 
-**I am passionate about sustainability and social justice**. Last year, I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. **I care deeply about female and BAME representation in STEM subjects**, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.
+**I am passionate about sustainability and creating a more equal society**. In 2019 I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. **I care deeply about female and BAME representation in STEM subjects**, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.
 
 ## Oil and Gas Technical Safety and Risk Engineer || Nuclear Technical Safety and Risk Consultant
 
