@@ -13,15 +13,18 @@ StoneX is a Fortune 100 multinational which provides commodity trading services 
 
 ### Selected projects:
 
-- **Credit Optimisation Tool**: A data exploration tool built in React/Typescript, with an express backend service acting as a cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
+- **Credit Optimisation Tool**: Full stack design and development of a data exploration tool with React/Typescript UI and a backend cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. I built pipelines to ingest and warehouse data from multiple business divisions, and incorporated a fast, flexible query and aggregation framework to power the frontend. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
 
-1. React / Express
-1. Typescript
+1. React / Express (TypeScript)
+1. K8S
 1. Highcharts
-1. Express
 1. SQL, MongoDB, Postgres
 
-- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our teams CI/CD pipelines. This improvement allowed higher fidelity unit-testing inside replica production containers, as well as adding automated SemVer management for all our microservice containers.
+- **TradeX UI**: I did a significant re-write of the frontend for the MVP of a new Trade Execution platform, including live metal price-streaming from liquidity providers
+
+1. LightStreamer
+
+- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our team's CI/CD pipelines, moving from a largely manual PR/test/release process to one that is now full automated. I worked hard to improve DX, greatly improving the consistency and ease of onboarding microservices to our CI/CD infrastructure.
 
 1. Azure DevOps
 2. CI/CD
@@ -35,6 +38,10 @@ StoneX is a Fortune 100 multinational which provides commodity trading services 
 1. AG-Grid
 
 - **SonarQube Integration**: I have overseen our team's integration with SonarQube for static code-checking and code-quality checks, incorporating it into our PR and CI/CD workflow.
+
+- **Confluent Cloud Migration**: I oversaw our team's migration from on-prem Kafka instances to using Confluent Cloud, including designing and implementing a strategy for versioning and compatibility checks in our CI/CD pipelines
+
+
 
 ## Stylus Education, London
 

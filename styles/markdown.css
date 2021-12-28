@@ -2,6 +2,21 @@ article {
   max-width: var(--main-content);
   margin: 0 auto;
   line-height: 1.9;
+  border-left: 1px solid white;
+  padding-left: 1rem;
+  position: relative;
+}
+
+h2::before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 7.5px;
+  background-color: var(--article-color);
+  top: 0;
+  left: -10px;
 }
 
 article > * + * {

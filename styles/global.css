@@ -1,3 +1,4 @@
+@import './reset.css';
 @import './syntax.css';
 @import './markdown.css';
 @import './nprogress.css';
@@ -134,18 +135,17 @@ h5,
 h6 {
   font-family: var(--font-sans);
   font-weight: 600;
-  line-height: 1.75;
+  /* line-height: 1.75; */
 }
 
 h1 {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.89px;
 }
 
 h2 {
-  font-size: 2rem;
   letter-spacing: -0.69px;
 }
 
@@ -153,7 +153,7 @@ h3 {
   font-size: 1.3rem;
   font-style: oblique;
   letter-spacing: -0.47px;
-  margin-top: -0.5rem;
+  /* margin-top: -0.5rem; */
 }
 
 h4 {
@@ -171,7 +171,7 @@ blockquote {
   font-style: oblique;
   font-size: 1.2rem;
   margin: 0;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
   /* border-left: 3px solid var(--light-gray); */
   transition: border-color var(--transition);
 }
@@ -230,14 +230,6 @@ kbd {
   font-weight: 600;
   background: var(--lighter-gray);
   border-radius: 5px;
-}
-
-[id]::before {
-  content: '';
-  display: block;
-  height: 70px;
-  margin-top: -70px;
-  visibility: hidden;
 }
 
 summary {
