@@ -146,6 +146,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 12px;
   letter-spacing: -0.69px;
 }
 
@@ -167,13 +168,17 @@ hr {
   transition: border-color 0.1s ease-in-out;
 }
 
-blockquote {
-  font-style: oblique;
-  font-size: 1.2rem;
-  margin: 0;
-  /* margin-top: -2rem; */
-  /* border-left: 3px solid var(--light-gray); */
-  transition: border-color var(--transition);
+blockquote,
+blockquote > p {
+  z-index: 1;
+  width: fit-content;
+  color: var(--accent);
+  padding: 2px 0px;
+  line-height: 1;
+  font-size: 0.9rem;
+  border-radius: 3px 0 3px 0;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
 button {

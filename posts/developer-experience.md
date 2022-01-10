@@ -41,8 +41,6 @@ StoneX is a Fortune 100 multinational which provides commodity trading services 
 
 - **Confluent Cloud Migration**: I oversaw our team's migration from on-prem Kafka instances to using Confluent Cloud, including designing and implementing a strategy for versioning and compatibility checks in our CI/CD pipelines
 
-
-
 ## Stylus Education, London
 
 > freelance, Jan 2019-present

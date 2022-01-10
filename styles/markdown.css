@@ -4,23 +4,37 @@ article {
   line-height: 1.9;
   border-left: 1px solid white;
   padding-left: 1rem;
+  padding-top: 10px;
   position: relative;
+}
+
+article::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 7.5px;
+  background-color: var(--accent);
+  left: -9px;
+  top: -40px;
+  margin-top: 32px;
 }
 
 h2::before {
   content: '';
   display: inline-block;
-  position: relative;
-  width: 18px;
-  height: 18px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
   border-radius: 7.5px;
   background-color: var(--article-color);
-  top: 0;
-  left: -10px;
+  left: -8px;
+  transform: translateY(14px);
 }
 
-article > * + * {
-  margin-top: 2em;
+h3 {
+  margin-top: 16px;
 }
 
 article p {
@@ -41,10 +55,11 @@ article ul {
   padding: 0;
   list-style-position: inside;
   list-style-type: circle;
+  margin-top: 16px;
 }
 
 article ol {
-  margin-top: -1.2rem;
+  margin-top: 0rem;
   padding: 0;
   list-style-position: inside;
 }
@@ -122,15 +137,6 @@ input[type='checkbox']:focus {
 
 .token-line:not(:last-child) {
   min-height: 1.4rem;
-}
-
-article pre {
-  overflow-x: auto;
-  background: var(--lightest-gray);
-  border-radius: var(--inline-radius);
-  line-height: 1.8;
-  padding: 1rem;
-  font-size: 0.875rem;
 }
 
 /* Linkable Headers */

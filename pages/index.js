@@ -7,9 +7,7 @@ import getPosts from '@lib/get-posts'
 const Blog = ({ posts }) => {
   return (
     <Page description="Ollie Mansell CV">
-      <article>
-        <PostsList posts={posts} />
-      </article>
+      <PostsList posts={posts} />
     </Page>
   )
 }

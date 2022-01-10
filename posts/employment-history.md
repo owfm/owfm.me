@@ -9,16 +9,7 @@ order: 4
 
 > 2020-present StoneX
 
-1. Full Stack
-2. Node
-3. Azure
-4. Docker
-5. Kubernetes
-6. React
-7. Express
-8. Helm
-
-As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Most recently I have been building **ETL pipelines using Node** to aggregate disparate data sources for presentation via **React, with deployment using Docker and Kubernetes**.
+See Developer Experience
 
 ## Teacher of Physics, Head of Key Stage 5 Science, Specialist Leader in Education (SLE) for Physics
 
