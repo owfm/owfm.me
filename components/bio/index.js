@@ -10,7 +10,11 @@ export default () => {
           <h1>Full Stack JS/TS</h1>
           <h3>
             Currently on the metals front-office development team at{' '}
-            <a className={styles.link} href="https://www.stonex.com/">
+            <a
+              className={styles.link}
+              target="_blank"
+              href="https://www.stonex.com/"
+            >
               <strong>StoneX</strong>
             </a>
             .
