@@ -13,7 +13,16 @@ StoneX is a Fortune 100 multinational which provides commodity trading services 
 
 ### Selected projects:
 
-- **Credit Optimisation Tool**: A data exploration tool built in React/Typescript, with an express backend service acting as a cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
+- **Trade Execution Platform**: Primary developer on the base metal team's flagship trade execution project. This project will afford in-house traders as well as clients direct access to market price and trade execution facility, from within our enterprise micro-frontend platform. I was responsible for making a basic POC production-ready, including a large re-write of the main Java backend service, a fully-responsive and accessible redesign of the trading widget, and full-stack design and implementation of a separate "activity log" widget.
+
+1. Java
+1. Typescript
+1. Lightstreamer
+1. FIX protocol
+1. React
+1. Kafka
+
+- **Credit Optimisation Tool**: A data exploration and visualisation tool built in React/Typescript, with an express backend service acting as a cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
 
 1. React / Express
 1. Typescript

@@ -18,7 +18,7 @@ order: 4
 7. Express
 8. Helm
 
-As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Most recently I have been building **ETL pipelines using Node** to aggregate disparate data sources for presentation via **React, with deployment using Docker and Kubernetes**.
+As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
 
 ## Teacher of Physics, Head of Key Stage 5 Science, Specialist Leader in Education (SLE) for Physics
 
@@ -31,9 +31,9 @@ As a developer in the London Base and Precious metals trading office I work clos
 
 I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a Specialist Leader in Education (SLE) for Physics in 2019, and in that role have **delivered many training and coaching sessions** supporting non-specialist physics teachers. **I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers** by the University of Cantebury.
 
-I’m proud that my A-level students’ progress has been recognised as being in the **top 10% nationally** (via ALPS) in 3 of the last 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.
+I’m proud that my A-level students’ progress was recognised as being in the **top 10% nationally** (via ALPS) in 3 of my first 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.
 
-**I am passionate about sustainability and creating a more equal society**. In 2019 I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. **I care deeply about female and BAME representation in STEM subjects**, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.
+**I am passionate about sustainability and creating a more equal society**. In 2019 I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task-group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. **I care deeply about female and BAME representation in STEM subjects**, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.
 
 ## Oil and Gas Technical Safety and Risk Engineer || Nuclear Technical Safety and Risk Consultant
 

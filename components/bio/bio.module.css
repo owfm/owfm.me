@@ -49,3 +49,15 @@
 .layout {
   margin-bottom: 4rem;
 }
+
+.link {
+  text-decoration: none;
+  color: var(--fg);
+  outline: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-style: dotted;
+}
