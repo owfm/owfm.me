@@ -20,6 +20,8 @@ order: 4
 
 As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
 
+In early 2022, I was approached by the precious metals desk to join their team in a trading capacity. I will be taking up that role in June 2022, with a remit to drive better technical fluency and adoption of trading technology on the desk.
+
 ## Teacher of Physics, Head of Key Stage 5 Science, Specialist Leader in Education (SLE) for Physics
 
 > 2015-2020, Holy Family Catholic School
@@ -29,7 +31,7 @@ As a developer in the London Base and Precious metals trading office I work clos
 3. Communication
 4. Education
 
-I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a Specialist Leader in Education (SLE) for Physics in 2019, and in that role have **delivered many training and coaching sessions** supporting non-specialist physics teachers. **I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers** by the University of Cantebury.
+I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a <a target="_blank" href="https://www.gov.uk/guidance/get-school-to-school-support-from-system-leaders#specialist-leaders-of-education-sles">Specialist Leader of Education (SLE)</a> for Physics in 2019, and in that role have **delivered many training and coaching sessions** supporting non-specialist physics teachers. **I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers** by the University of Cantebury.
 
 I’m proud that my A-level students’ progress was recognised as being in the **top 10% nationally** (via ALPS) in 3 of my first 4 years. I have appeared on Radio 4 with my students discussing a collaborative project I ran with Queen Mary University.
 
