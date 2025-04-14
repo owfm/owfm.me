@@ -5,6 +5,19 @@ category: employment
 order: 4
 ---
 
+## Precious Metals Trader
+
+> 2022-present StoneX
+
+1. Precious Metals & Derivatives trading
+1. Risk Management
+
+In late 2022 I was invited to join the PM trading desk in a full-time trading role, which I took up in July. In this role I have initially been focussed on finding inefficiency in the trading- and sales team workflows, and implementing tooling and automation to mitigate them. To that end I have built an automated tool that can be used to quickly derive forward and forward-forward price levels from the curves maintained by the trading team, which has freed up significant time and energy. I have also been working closely with the dev team to improve PnL calculations, and make improvements to our existing reporting and inventory management tools. 
+
+I have also been responsible for day-to-day risk management of the trading books across gold, silver, platinum, palladium and rhodium. 
+
+I have completed CISI exams in Financial Regulation and Derivatives.
+
 ## Front Office Metals Developer
 
 > 2020-present StoneX

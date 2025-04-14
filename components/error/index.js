@@ -18,7 +18,7 @@ const Error = ({ missingTerm, status }) => {
             <strong>Whoops</strong> — wrong turn.
           </p>
 
-          <Link underline href="/">
+          <Link legacyBehavior underline href="/">
             Go Home
           </Link>
         </>

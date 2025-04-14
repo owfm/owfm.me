@@ -1,5 +1,3 @@
 module.exports = {
-  experimental: {
-    jsconfigPaths: true
-  }
+    experimental: { newNextLinkBehavior: true }
 }

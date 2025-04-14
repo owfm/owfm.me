@@ -15,13 +15,11 @@ const Header = ({ slug, title }) => {
     <nav className={styles.nav}>
       <div className={styles.header}>
         <span>
-          <Link href="/">
-            <a
-              aria-label="Navigate Home"
-              className={slug ? styles.home : styles.slug}
-            >
-              ollie mansell
-            </a>
+          <Link legacyBehavior href="/"
+            aria-label="Navigate Home"
+            className={slug ? styles.home : styles.slug}
+          >
+            ollie mansell
           </Link>
           <span className={styles.tagline}>
             &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;{'  '}

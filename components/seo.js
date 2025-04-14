@@ -23,20 +23,13 @@ const Head = ({
       <meta name="apple-mobile-web-app-title" content="olliemansell.co.uk" />
       <meta name="author" content="Ollie Mansell" />
 
-      {/* RSS feed */}
-      <link
-        rel="alternate"
-        type="application/rss+xml"
-        title="RSS Feed for whatthefuck.is"
-        href="/feed.xml"
-      />
-
       {/* TODO: Favicons */}
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
 
       {/* Inter font */}
       <link
+        legacyBehavior
         rel="preload"
         href="https://assets.vercel.com/raw/upload/v1587415301/fonts/2/inter-var-latin.woff2"
         as="font"

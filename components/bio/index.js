@@ -7,9 +7,9 @@ export default () => {
       <div className={styles.container}>
         <img src={'./profile-pic.jpg'} alt={`Ollie Mansell`} />
         <div>
-          <h1>Full Stack JS/TS</h1>
+          <h1>Trading | Full Stack JS/TS | Python</h1>
           <h3>
-            Currently on the metals front-office development team at{' '}
+            Currently in the precious metals front office @ {' '}
             <a
               className={styles.link}
               target="_blank"
