@@ -3,9 +3,8 @@ import NextHead from 'next/head'
 const Head = ({
   title = 'olliemansell.co.uk',
   description = 'Ollie Mansell CV',
-  image,
-  children
-}) => {
+  children,
+}: any) => {
   return (
     <NextHead>
       {/* Title */}
@@ -29,7 +28,6 @@ const Head = ({
 
       {/* Inter font */}
       <link
-        legacyBehavior
         rel="preload"
         href="https://assets.vercel.com/raw/upload/v1587415301/fonts/2/inter-var-latin.woff2"
         as="font"

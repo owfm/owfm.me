@@ -1,13 +1,13 @@
+'use client'
 import Link from 'next/link'
+import { useMounted } from '../../lib/use-mounted'
 
+import useTheme from '../../lib/theme'
+import Moon from '../icons/moon'
+import Sun from '../icons/sun'
 import styles from './header.module.css'
-import LogoIcon from '@components/icons/logo'
-import useTheme from '@lib/theme'
-import Moon from '@components/icons/moon'
-import Sun from '@components/icons/sun'
-import useMounted from '@lib/use-mounted'
 
-const Header = ({ slug, title }) => {
+const Header = ({ slug, title }: { slug: string; title: string }) => {
   const isMounted = useMounted()
   const { theme, toggleTheme } = useTheme()
 
@@ -15,7 +15,8 @@ const Header = ({ slug, title }) => {
     <nav className={styles.nav}>
       <div className={styles.header}>
         <span>
-          <Link legacyBehavior href="/"
+          <Link
+            href="/"
             aria-label="Navigate Home"
             className={slug ? styles.home : styles.slug}
           >

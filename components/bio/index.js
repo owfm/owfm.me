@@ -1,6 +1,6 @@
 import styles from './bio.module.css'
 
-export default () => {
+export default function Bio() {
   return (
     <div className={styles.layout}>
       <hr className={styles.horizontal} />
@@ -9,7 +9,7 @@ export default () => {
         <div>
           <h1>Trading | Full Stack JS/TS | Python</h1>
           <h3>
-            Currently in the precious metals front office @ {' '}
+            Currently in the precious metals front office @{' '}
             <a
               className={styles.link}
               target="_blank"

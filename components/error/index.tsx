@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-import Page from '@components/page'
-import Link from '@components/link'
+import Link from '../link'
+import Page from '../page'
 import styles from './error.module.css'
 
-const Error = ({ missingTerm, status }) => {
+const Error = ({ status }: { status: number }) => {
   return (
-    <Page title={status || 'Error'} showSlug={false}>
+    <Page title={`${status}` || 'Error'} showSlug={false}>
       <Head>
         <title>{[status]}</title>
       </Head>
@@ -18,7 +18,7 @@ const Error = ({ missingTerm, status }) => {
             <strong>Whoops</strong> — wrong turn.
           </p>
 
-          <Link legacyBehavior underline href="/">
+          <Link underline href="/">
             Go Home
           </Link>
         </>

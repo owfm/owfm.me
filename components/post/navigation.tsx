@@ -1,13 +1,19 @@
-import Link from '@components/link'
+import { Post } from '../../lib/get-posts'
+import Link from '../link'
 
 import styles from './navigation.module.css'
 
-const Previous = ({ previous, next }) => {
+type Props = {
+  previous: Post
+  next: Post
+}
+
+const Previous = ({ previous, next }: Props) => {
   return (
     <div className={styles.navigation}>
       <div className={styles.previous}>
         {previous && (
-          <Link legacyBehavior href="/[slug]" gray as={`/${previous.slug}`}>
+          <Link href={`/${previous.slug}`} gray>
             <div className={styles.title}>← {previous.title}</div>
           </Link>
         )}
@@ -15,7 +21,7 @@ const Previous = ({ previous, next }) => {
 
       <div className={styles.next}>
         {next && (
-          <Link legacyBehavior href="/[slug]" gray as={`/${next.slug}`}>
+          <Link href={`/${next.slug}`} gray>
             <div className={styles.title}>{next.title} →</div>
           </Link>
         )}

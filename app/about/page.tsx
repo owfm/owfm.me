@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import Page from '@components/page'
+import Page from '../../components/page'
 
 const About = () => {
   return (

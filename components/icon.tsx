@@ -1,4 +1,4 @@
-const withIcon = icon => {
+export default function withIcon(icon: any) {
   const Icon = ({ size = 24, color = 'currentColor' }) => {
     return (
       <svg
@@ -13,5 +13,3 @@ const withIcon = icon => {
 
   return Icon
 }
-
-export default withIcon

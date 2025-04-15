@@ -51,12 +51,10 @@ const disableAnimation = () => {
 }
 
 const useTheme = () => {
-  const { data: theme, mutate } = useSWR(themeStorageKey, getTheme, {
-    initialData: getTheme()
-  })
+  const { data: theme, mutate } = useSWR(themeStorageKey, getTheme)
 
   const setTheme = useCallback(
-    newTheme => {
+    (newTheme: any) => {
       mutate(newTheme, false)
     },
     [mutate]
@@ -77,7 +75,7 @@ const useTheme = () => {
   return {
     theme,
     setTheme,
-    toggleTheme: () => setTheme(!theme || theme === 'dark' ? 'light' : 'dark')
+    toggleTheme: () => setTheme(!theme || theme === 'dark' ? 'light' : 'dark'),
   }
 }
 

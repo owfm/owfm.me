@@ -1,8 +1,16 @@
-import { memo, useState } from 'react'
-import cn from 'classnames'
+'use client'
 
-import Link from '@components/link'
+import cn from 'classnames'
+import { memo, useState } from 'react'
+
+import Link from '../link'
 import styles from './text.module.css'
+
+type Props = {
+  title: string
+  href: string
+  category: keyof typeof categories
+}
 
 // prettier-ignore
 const categories = {
@@ -12,24 +20,18 @@ const categories = {
   'employment': ' ',
   'key skills': ' ',
   'culture': ' '
-}
+} as const
 
 const request = ['🙋🏻', '🙋🏼', '🙋🏽', '🙋🏾', '🙋🏿']
 
-const TextEntry = ({ title, type, comment, href, category, as }) => {
+export const TextEntry = memo(({ title, href, category }: Props) => {
   const [diceRoll] = useState(Math.random())
   const emoji = category
     ? categories[category]
     : request[Math.round(diceRoll * (request.length - 1))]
   return (
     <li className={cn(styles.item, !category && styles.request)}>
-      <Link
-        href={href}
-        as={as}
-        external={!as}
-        title={`${title}`}
-        className={styles.link}
-      >
+      <Link href={href} className={styles.link}>
         {emoji && (
           <span
             role="img"
@@ -46,6 +48,4 @@ const TextEntry = ({ title, type, comment, href, category, as }) => {
       </Link>
     </li>
   )
-}
-
-export default memo(TextEntry)
+})
