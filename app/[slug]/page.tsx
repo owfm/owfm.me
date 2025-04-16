@@ -1,6 +1,6 @@
-import Post from '../../components/post'
-import getPosts from '../../lib/get-posts'
-import renderMarkdown from '../../lib/render-markdown'
+import Post from '../../src/components/post'
+import getPosts from '../../src/lib/get-posts'
+import renderMarkdown from '../../src/lib/render-markdown'
 
 export default async function Page({
   params,

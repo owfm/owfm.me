@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import '../global.css'
 import '../styles/global.css'
 import '../styles/inter.css'
 import '../styles/markdown.css'
