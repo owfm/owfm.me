@@ -1,6 +1,6 @@
-import Page from '../src/components/page'
-import Posts from '../src/components/posts-list'
-import getPosts from '../src/lib/get-posts'
+import Page from '../components/page'
+import Posts from '../components/posts-list'
+import getPosts from '../lib/get-posts'
 
 export default async function Main() {
   const posts = getPosts()

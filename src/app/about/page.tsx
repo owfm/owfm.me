@@ -1,4 +1,4 @@
-import Page from '../../src/components/page'
+import Page from '../../components/page'
 
 const About = () => {
   return (
