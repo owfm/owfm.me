@@ -9,6 +9,9 @@ const Footer = ({ slug }: { slug: string }) => {
           <Link href="mailto:hi@olliemansell.co.uk" external gray>
             email
           </Link>
+          <Link href="https://www.x.com/afewwilliams" external gray>
+            @afewwilliams
+          </Link>
           <Link href="https://github.com/owfm" external gray>
             github
           </Link>

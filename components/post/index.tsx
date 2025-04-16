@@ -2,15 +2,6 @@ import type { Post } from '../../lib/get-posts'
 import Page from '../page'
 import Navigation from './navigation'
 
-function escapeHtml(unsafe: string) {
-  return unsafe
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;')
-}
-
 type Props = {
   title: string
   slug: string
@@ -24,7 +15,7 @@ const Post = ({ title, slug, html, previous, next }: Props) => {
     <Page slug={slug} title={title}>
       <article
         dangerouslySetInnerHTML={{
-          __html: `${escapeHtml(html)}`,
+          __html: html,
         }}
       />
 
