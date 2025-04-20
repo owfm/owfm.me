@@ -30,8 +30,6 @@ export default () => {
     dir = readdirSync(path.join(process.cwd(), 'src', 'md'), {
       withFileTypes: true,
     })
-
-    console.log(dir)
   } catch (err) {
     console.error('Error reading directory:', err)
     return []
