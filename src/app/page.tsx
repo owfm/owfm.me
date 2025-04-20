@@ -4,6 +4,7 @@ import getPosts from '../lib/get-posts'
 
 export default async function Main() {
   const posts = getPosts()
+  console.log('on main with ' + posts.length + ' posts')
   return (
     <Page description="Ollie Mansell CV">
       <article>

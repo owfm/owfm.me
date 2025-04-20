@@ -17,6 +17,11 @@ const About = () => {
         and you can find mine{' '}
         <a href="https://github.com/owfm/olliemansellcouk">
           <strong>here.</strong>
+
+          <p>
+            In 2025, this fork was migrated to Next v15 and I am migrating away
+            from CSS modules to use tailwindcss.
+          </p>
         </a>
       </p>
     </Page>

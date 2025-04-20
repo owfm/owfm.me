@@ -2,6 +2,10 @@ import Post from '../../components/post'
 import getPosts from '../../lib/get-posts'
 import renderMarkdown from '../../lib/render-markdown'
 
+export const metadata = {
+  title: 'Post',
+}
+
 export default async function Page({
   params,
 }: {
@@ -9,8 +13,18 @@ export default async function Page({
 }) {
   const { slug } = await params
 
+  if (!slug) return null
+
   const posts = getPosts()
   const postIndex = posts.findIndex((p) => p.slug === slug)
+
+  if (postIndex === -1)
+    return (
+      <div className="flex flex-col items-center justify-center h-screen">
+        <h1 className="text-3xl font-bold">Page not found</h1>
+      </div>
+    )
+
   const post = posts[postIndex]
   const { body, ...rest } = post
 

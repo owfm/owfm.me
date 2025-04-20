@@ -1,4 +1,4 @@
-import fs from 'fs'
+import { Dirent, readdirSync, readFileSync } from 'fs'
 import matter from 'gray-matter'
 import path from 'path'
 import { z } from 'zod'
@@ -27,15 +27,22 @@ const MatterParseSchema = z.object({
 export default () => {
   let dir
   try {
-    dir = fs.readdirSync('./posts/')
+    dir = readdirSync(path.join(process.cwd(), 'src', 'md'), {
+      withFileTypes: true,
+    })
+
+    console.log(dir)
   } catch (err) {
-    // No posts yet
+    console.error('Error reading directory:', err)
     return []
   }
   const posts = dir
-    .filter((file) => path.extname(file) === '.md')
+    .filter((file: Dirent) => path.extname(file.name) === '.md')
     .map((file) => {
-      const postContent = fs.readFileSync(`./posts/${file}`, 'utf8')
+      const postContent = readFileSync(
+        path.join(process.cwd(), 'src', 'md', file.name),
+        'utf8',
+      )
       const { data, content } = MatterParseSchema.parse(matter(postContent))
 
       return PostSchema.parse({
