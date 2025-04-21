@@ -5,109 +5,96 @@ category: dev
 order: 3
 ---
 
-## StoneX, London
+## StoneX, London (2020–Present, Full Time)
 
-> fulltime, Nov 2020-present
+StoneX is a Fortune 100 multinational providing commodity trading services. As part of the metals front-office development team, I focus on greenfield projects supporting base- and precious-metal trading operations.
 
-StoneX is a Fortune 100 multinational which provides commodity trading services to a wide variety of clients. As a member of the development team supporting the metals front office, my role has mainly been on greenfield projects developing services in support of the base- and precious-metal trading and operations staff.
+### Selected Projects
 
-### Selected projects:
+**Forwards Pricer**: Developed a Next.js application for pricing precious metals forwards. Features include forward curve skew control, markup/spread curve adjustments, and interpolation for broken dates. I also designed and implemented an averaging and Asian swap pricer for accurately pricing more complex structures. This pricer is now used for deals with notional values of hundreds of millions of dollars every day and has become central to both sales and trading's pricing workflows.
 
-- **Trade Execution Platform**: Primary developer on the base metal team's flagship trade execution project. This project will afford in-house traders as well as clients direct access to market price and trade execution facility, from within our enterprise micro-frontend platform. I was responsible for making a basic POC production-ready, including a large re-write of the main Java backend service, a fully-responsive and accessible redesign of the trading widget, and full-stack design and implementation of a separate "activity log" widget.
+1. Next.js
+1. TypeScript
+1. Bun
+1. Websockets
+1. Redis
+
+**RegCap Playground**: Built a React tool allowing front office users to simulate the impact of trades on regulatory capital requirements. I worked closely with the treasury team and our regulatory accountants to validate this tool, and in the process identified a long-standing calculation error, fixing which led to a material improvement of our capital efficiency.
+
+1. React
+1. APIs
+
+**Trade Execution Platform**: Led development of a trade execution platform for base metals. I re-wrote a Java backend service that had been created as a POC, created a fully responsive and accessible trade ticket widget, and implemented an additional "activity log" widget.
 
 1. Java
-1. Typescript
+1. TypeScript
+1. React
 1. Lightstreamer
 1. FIX protocol
-1. React
 1. Kafka
 
-- **Credit Optimisation Tool**: A data exploration and visualisation tool built in React/Typescript, with an express backend service acting as a cache/query layer. The tool affords front-office staff excellent visibility of their client accounts, allowing them to explore allocation of credit lines in comparison with revenue via a rich search, aggregation and filtering interface. The first phase release of this tool has been hugely successful, and I was asked to present it the CEO and executive committee as a potential strategic tool to be expanded and rolled out to other business lines.
+**Credit Optimization Tool**: Created a React-based tool for visualizing credit line allocation versus revenue. Presented it to EXCO as a potential strategic tool for broader adoption.
 
-1. React / Express
-1. Typescript
-1. Highcharts
+1. React
 1. Express
-1. SQL, MongoDB, Postgres
+1. Highcharts
+1. SQL
 
-- **Multi-stage CI/CD Pipelines**: I did a complete re-write of our teams CI/CD pipelines. This improvement allowed higher fidelity unit-testing inside replica production containers, as well as adding automated SemVer management for all our microservice containers.
+**CI/CD Pipelines**: Overhauled CI/CD pipelines to enable production-like unit testing and automated semantic versioning for microservices.
 
 1. Azure DevOps
-2. CI/CD
-3. Docker
-4. Jest
+1. Docker
 
-- **Trade Blotter**: A React micro-frontend allowing the user to perform complex search queries on a trade information API, which is then presented to the user in a sortable/filterable/searchable table view.
+**Trade Blotter**: Designed a React micro-frontend for querying trade data via an API and displaying results in an interactive table.
 
 1. React
-1. Typescript
 1. AG-Grid
 
-- **SonarQube Integration**: I have overseen our team's integration with SonarQube for static code-checking and code-quality checks, incorporating it into our PR and CI/CD workflow.
+**SonarQube Integration**: Integrated SonarQube into the CI/CD workflow for static code analysis and quality checks.
 
-## Stylus Education, London
+## Stylus Education, London (2019–2020; 2024–Present, Freelance)
 
-> freelance, Jan 2019-late 2020
+Developed key systems for this EdTech startup supporting science, English, and math tutoring through personalized exam papers and feedback reports.
 
-As a key member of the Stylus Education team, I have built and deployed the **Node, Python and React/Redux architecture** for this London EdTech start-up. The company supports science, English and maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports. (Note: as of mid-2021, Stylus is no longer trading).
+### Selected Projects
 
-### Services implemented:
-
-- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.
-- **In-house client**: single page web app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners.
-
-1. React/Redux
-2. Amplify
-3. amCharts
-4. CI/CD&nbsp;with&nbsp;AWS&nbsp;Codebuild
-
-- **Client API**: The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers.
-
-1. Python
-2. Serverless&nbsp;Framework
-3. Reportlab
-4. AWS&nbsp;Lambda
-5. S3
-6. API&nbsp;Gateway
-7. Cognito
-
-- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates. Implemented using [**Serverless Framework and Step Functions**.](https://medium.com/swlh/how-to-add-human-decision-making-into-automated-workflows-using-aws-step-functions-serverless-46c0a3412fe4)
-
-1. Lambda
-2. Node
-3. CloudFormation
-4. Rekognition
-5. AWS Step Functions
-6. DynamoDb
-7. SES
-8. CI/CD with Seed
-
-## Finura Partners, London
-
-> freelance, 2019
-
-This successful London financial services company employed me to streamline how their financial advisors get new business prospects into their in-house tracker. After consulting with them on their requirements I delivered:
-
-- **Frontend SPA** A web app composed of a Formik form with dynamic fields and validation schema
+**Customer Dashboard**: Built a web app for monitoring learning cycles and reviewing outcomes.
 
 1. React
-2. Formik
-3. Amplify
+1. Redux
+1. AWS Amplify
 
-- **Backend API** A REST API which securely updates their internal tracking system using the Google Apps APIs
+**In-House Web Client**: Created an internal tool with drag-and-drop interfaces for exam paper creation and management of in-house automated workflows.
 
-1. AWS Lambda
-2. API Gateway
-3. Python
+1. React
+1. Redux
 
-The directors reported that the app has significantly reduced both overheads and errors associated with performing the tasks manually.
-
-## Airtable Python Wrapper
-
-> open source contributor, 2020
-
-Through using this library for my project work I identified and implemented a way to make certain batch operations [**≈10x faster than the previous implementation**](https://github.com/gtalarico/airtable-python-wrapper/pull/88).
+**Client API**: Developed a REST API to generate personalized exam papers and manage data workflows.
 
 1. Python
-2. Tox
-3. Pytest
+1. AWS Lambda
+
+**Paper Processing Service**: Implemented a Node-based service for processing PDFs via email endpoints using OCR and database updates.
+
+1. Node.js
+1. AWS Step Functions
+
+## Finura Partners, London (2019; 2024–2025, Freelance)
+
+Streamlined client onboarding processes for this financial services firm.
+
+Frontend SPA: Developed a dynamic form interface for client data entry.
+
+1. React
+1. Formik
+
+Backend API: Built a secure API to integrate with Google Apps for data synchronization.
+
+1. Python
+1. AWS Lambda
+
+## Open Source Contribution – Pyairtable (2020)
+
+Optimized batch operations in the Airtable Python library to [improve performance by ~10x](https://github.com/gtalarico/airtable-python-wrapper/pull/88).
+
+1. Python

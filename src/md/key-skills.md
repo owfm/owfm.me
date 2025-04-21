@@ -6,10 +6,30 @@ category: key skills
 order: 2
 ---
 
-- JavaScript and Typescript (ES6/ES7)
-- Node
-- React
-- Docker
-- Apache Kafka
-- K8s w/ Helm
-- Jest
+## Technical
+
+- **Full-Stack Development**: Proficient in TypeScript (Node.js/React; front-end focus).
+- **Databases**: SQL (Postgres, SQLite) and NoSQL (most familiar with DynamoDB; some MongoDB).
+- **Containerization & Orchestration**: Docker, Kubernetes.
+- **IaC**: SST, Cloudformation, Bicep.
+- **Realtime Applications**: Lightstreamer, WebSockets.
+- **Cloud Platforms**: Advanced in AWS (Lambda, S3, EC2, RDS, DynamoDB, SQS, SNS, CloudWatch).
+- **Testing & Quality Assurance**: Jest, React Testing Library.
+- **CI/CD Pipelines**: GitHub Actions, Azure Pipelines, Seed.
+- **Architectures**: Event-driven systems (Apache Kafka), Microservices.
+- **Protocols & APIs**: FIX protocol, REST APIs.
+
+## Financial
+
+- **Trading Experience**: 3+ years in front-office precious metals trading.
+- **Products Traded**: Spot, forwards, Asian swaps (averaging), OTC & cleared derivatives.
+- **Market Activities**: Market making, proprietary trading, physical metal trading.
+- **Risk & Valuation**: PnL reporting, trade/position valuation and risk management.
+- **Regulatory Compliance**: Expertise in trade reporting and adherence to regulations.
+
+## Other
+
+- Problem-solving & analytical thinking.
+- Cross-functional collaboration and mentoring.
+- Agile methodologies (Scrum) and continuous improvement processes.
+- Teaching and process optimization.

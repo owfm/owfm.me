@@ -5,44 +5,39 @@ category: employment
 order: 4
 ---
 
-## Precious Metals Trader
+## StoneX | Precious Metals Trading & Technology [2022<span>&#8211;</span>now]
 
-> 2022-present StoneX
+{/_ > 2022-present, StoneX _/}
 
-1. Precious Metals & Derivatives trading
-1. Risk Management
+- Full-stack development
+- Precious Metals & Derivatives trading
+- Risk Management
 
-In late 2022 I was invited to join the PM trading desk in a full-time trading role, which I took up in July. In this role I have initially been focussed on finding inefficiency in the trading- and sales team workflows, and implementing tooling and automation to mitigate them. To that end I have built an automated tool that can be used to quickly derive forward and forward-forward price levels from the curves maintained by the trading team, which has freed up significant time and energy. I have also been working closely with the dev team to improve PnL calculations, and make improvements to our existing reporting and inventory management tools. 
+In 2022 I was invited to join the PM trading desk, while retaining a developer remit. In this position I have focussed on improving trading- and sales team daily workflows, which had become essential as the business has grown. To that end I have built and maintain a suite of utility applets relating to pricing, valuation, PnL, and regulatory capital which quickly became indispensable on desk.
 
-I have also been responsible for day-to-day risk management of the trading books across gold, silver, platinum, palladium and rhodium. 
+StoneX has a global precious metals presence and is one of the **largest non-bank players in the market**. In my trading role I am one of three London traders who manage **several billion USD of precious metals flow through our platform daily**, trading spot, forwards, options and futures across the main four precious metals. We also have a very active role in the sourcing, logistics and financing of our worldwide physical precious metals business.
 
 I have completed CISI exams in Financial Regulation and Derivatives.
 
-## Front Office Metals Developer
+## StoneX | Front Office Metals Developer [2020<span>&#8211;</span>2022]
 
-> 2020-present StoneX
-
-1. Full Stack
-2. Node
-3. Azure
-4. Docker
-5. Kubernetes
-6. React
-7. Express
-8. Helm
+- Full Stack
+- Node
+- Azure
+- Docker
+- Kubernetes
+- React
+- Express
+- Helm
 
 As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
 
-In early 2022, I was approached by the precious metals desk to join their team in a trading capacity. I will be taking up that role in June 2022, with a remit to drive better technical fluency and adoption of trading technology on the desk.
+## Teacher of Physics, Head of KS5 Science, Specialist Leader in Education (SLE) for Physics
 
-## Teacher of Physics, Head of Key Stage 5 Science, Specialist Leader in Education (SLE) for Physics
-
-> 2015-2020, Holy Family Catholic School
-
-1. Mentoring
-2. Leadership
-3. Communication
-4. Education
+- Mentoring
+- Leadership
+- Communication
+- Education
 
 I have a deep passion for physics and have had a very rewarding five years sharing my love of the subject in the classrooms of this East London Comprehensive. I became a <a target="_blank" href="https://www.gov.uk/guidance/get-school-to-school-support-from-system-leaders#specialist-leaders-of-education-sles">Specialist Leader of Education (SLE)</a> for Physics in 2019, and in that role have **delivered many training and coaching sessions** supporting non-specialist physics teachers. **I was later awarded an “Expert Practitioner” award for outstanding mentoring of trainee teachers** by the University of Cantebury.
 
@@ -50,13 +45,17 @@ I’m proud that my A-level students’ progress was recognised as being in the 
 
 **I am passionate about sustainability and creating a more equal society**. In 2019 I proactively secured a £95k grant to improve the school’s energy efficiency with a lighting overhaul. I brought together a team of colleagues into a task-group aimed at reducing energy, paper and plastic usage and formed a student group to give the student body agency in driving sustainable initiatives. **I care deeply about female and BAME representation in STEM subjects**, co-ordinating my school’s involvement in a pilot study with King’s College and the Institute of Physics which resulted in a 5-fold increase in female uptake of A-Level physics.
 
-## Oil and Gas Technical Safety and Risk Engineer || Nuclear Technical Safety and Risk Consultant
+## Technical Safety and Risk Engineer
 
-> Xodus Group, Perth Australia (2011–2014) || RPS Risk Management, Warrington UK (2008–2011)
+### Xodus Group, Perth Australia [2011–2014] & RPS Risk Management, Warrington UK (2008–2011)
 
-1. Risk Management
-2. Technical Authoring
-3. Managing Complexity
-4. Communication
+- SIL Assessment
+- Fault/Event Tree Analysis
+- HAZOP/HAZID
+- Bowtie Analysis
+- Safety Case Development
+- Nuclear
+- Oil & Gas
+- Process Safety
 
-As a risk consultant I worked with colleagues and embedded in client teams on **large, high-hazard and highly regulated process industry projects**. We were tasked with analysing complex systems using a breadth of techniques and software to assess risks associated with fault conditions, and thus demonstrate acceptability of risk to regulators. In these jobs—as in software development—**clear, unambiguous communication in complex contexts** was essential.
+As a consultant I worked with colleagues and embedded in client teams on **large, high-hazard and highly regulated process industry projects** in both nuclear and oil & gas facilities. We were tasked with analysing complex systems using a breadth of techniques and software to assess risks associated with fault conditions, and thus demonstrate acceptability of risk to regulators. These roles required extreme diligence and precise communication while working in highly secure environments.
