@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import { Metadata } from 'next'
 import '../global.css'
 import '../styles/global.css'
@@ -29,7 +30,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           crossOrigin="anonymous"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="container flex flex-col min-h-screen px-4 mx-auto">
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }

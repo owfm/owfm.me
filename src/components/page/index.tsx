@@ -1,4 +1,3 @@
-import Footer from '../footer'
 import Header from '../header'
 import styles from './index.module.css'
 
@@ -23,7 +22,6 @@ const Page = ({ slug, title, showSlug = true, children }: Props) => {
         />
       )}
       <main className={styles.main}>{children}</main>
-      <Footer slug={slug || ''} />
     </div>
   )
 }

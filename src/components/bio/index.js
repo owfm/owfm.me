@@ -7,7 +7,7 @@ export default function Bio() {
       <div className={styles.container}>
         <img src={'./profile-pic.jpg'} alt={`Ollie Mansell`} />
         <div>
-          <h1>Trading | Full Stack JS/TS | Python</h1>
+          <h1>Trading | Full Stack TS | Python</h1>
           <h3>
             Currently in the precious metals front office @{' '}
             <a

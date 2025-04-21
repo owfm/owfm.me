@@ -6,7 +6,7 @@ const About = () => {
       <p>
         This site is forked from Dan Abramov's brilliant{' '}
         <strong>
-          <a href="https://www.whatthefuck.is">https://www.whatthefuck.is.</a>
+          <a href="https://www.whatthefuck.is">https://www.whatthefuck.is.</a> 
         </strong>
       </p>
       <p>
@@ -16,14 +16,20 @@ const About = () => {
         </a>{' '}
         and you can find mine{' '}
         <a href="https://github.com/owfm/olliemansellcouk">
-          <strong>here.</strong>
-
-          <p>
-            In 2025, this fork was migrated to Next v15 and I am migrating away
-            from CSS modules to use tailwindcss.
-          </p>
+          <strong>here.</strong> I have rewritten the majority of the code while migrating it to Typscript and Next 15. I do love the original design though.
         </a>
       </p>
+
+        {' '}
+        <h3>2025 Todo List</h3>
+        <ul className=''>
+          <li>Upgrade to Next.js 15 App Router ✅</li>
+          <li>Migrate to Bun ✅</li>
+          <li>Releases via Github actions / vercel CLI ✅</li>
+          <li>Migrate CSS Modules => Tailwind / Shadcn 🟧</li>
+          <li>Refresh design 🟥</li>
+          <li>Add reading list 🟥</li>
+        </ul>
     </Page>
   )
 }

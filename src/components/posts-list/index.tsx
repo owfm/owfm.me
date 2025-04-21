@@ -1,5 +1,4 @@
 import { Post } from '../../lib/get-posts'
-import Bio from '../bio'
 import { TextEntry } from '../entry/text'
 import styles from './index.module.css'
 
@@ -10,7 +9,6 @@ type Props = {
 const Posts = ({ posts }: Props) => {
   return (
     <>
-      <Bio />
       <ul className={styles.container}>
         {posts
           .sort((a, b) => a.order - b.order)
