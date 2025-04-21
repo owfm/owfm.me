@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "scripts": {
     "lint": "prettier --write '**/*.js'",
     "dev": "next dev",
