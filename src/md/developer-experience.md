@@ -56,28 +56,36 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 
 As a key member of the Stylus Education team, I designed, built and deployed the Node, Python and React/Redux architecture for this London EdTech start-up. The company supports Science, English and Maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports. As of 2025, Stylus has secured it's second round of investment and has won support from the DoE.
 
-### Selected Projects
+### Services implemented:
 
-**Customer Dashboard**: Built a web app for monitoring learning cycles and reviewing outcomes.
+- **Customer Dashboard**: Customer-facing web app for customer admins, tutors and students to monitor the completion of learning cycles, pausing service, and reviewing outcomes over time.
+- **In-house client**: single page web app to allow staff to monitor and execute product workflows. It includes a drag & drop interface for producing exam papers from the question bank, and an interface for assigning tasks to 3rd party partners.
 
-1. React
-1. Redux
-1. AWS Amplify
+1. React/Redux
+2. Amplify
+3. amCharts
+4. CI/CD with AWS Codebuild
 
-**In-House Web Client**: Created an internal tool with drag-and-drop interfaces for exam paper creation and management of in-house automated workflows.
-
-1. React
-1. Redux
-
-**Client API**: Developed a REST API to generate personalized exam papers and manage data workflows.
+- **Client API**: The REST API serving the web apps. Exposes the interface to our database and implements the service that generates our personalised exam papers.
 
 1. Python
-1. AWS Lambda
+2. Serverless Framework
+3. Reportlab
+4. Lambda
+5. S3
+6. API Gateway
+7. Cognito
 
-**Paper Processing Service**: Implemented a Node-based service for processing PDFs via email endpoints using OCR and database updates.
+- **Paper Processing Service**: a Node-based lambda service which receives PDFs via an email endpoint, parses the email and attachments, performs pdf-image conversion, OCR, and database updates. Implemented using [**Serverless Framework and Step Functions**.](https://medium.com/swlh/how-to-add-human-decision-making-into-automated-workflows-using-aws-step-functions-serverless-46c0a3412fe4)
 
-1. Node.js
-1. AWS Step Functions
+1. Lambda
+2. Node
+3. CloudFormation
+4. Rekognition
+5. AWS Step Functions
+6. DynamoDb
+7. SES
+8. CI/CD with Seed
 
 ## Finura Partners, London (2019; 2024–2025, Freelance)
 
@@ -91,7 +99,7 @@ Frontend SPA: Developed a dynamic form interface for client data entry.
 Backend API: Built a secure API to integrate with Google Apps for data synchronization.
 
 1. Python
-1. AWS Lambda
+1. Lambda
 
 ## Open Source Contribution – Pyairtable (2020)
 
