@@ -54,7 +54,7 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 
 ## Stylus Education, London (2019–2020; 2024–Present, Freelance)
 
-Developed key systems for this EdTech startup supporting science, English, and math tutoring through personalized exam papers and feedback reports.
+As a key member of the Stylus Education team, I designed, built and deployed the Node, Python and React/Redux architecture for this London EdTech start-up. The company supports Science, English and Maths tutoring by providing students and tutors with bespoke practice exam-papers and detailed, targeted feedback reports. As of 2025, Stylus has secured it's second round of investment and has won support from the DoE.
 
 ### Selected Projects
 

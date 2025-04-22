@@ -31,7 +31,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
       </head>
       <body>
-        <div className="container flex flex-col min-h-screen px-4 mx-auto">
+        <div className="container flex flex-col min-h-screen mx-auto max-w-3xl">
           {children}
           <Footer />
         </div>

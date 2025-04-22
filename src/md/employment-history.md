@@ -5,32 +5,17 @@ category: employment
 order: 4
 ---
 
-## StoneX | Precious Metals Trading & Technology [2022<span>&#8211;</span>now]
+## StoneX | Precious Metals Trading & Technology [2020<span>&#8211;</span>now]
 
-{/_ > 2022-present, StoneX _/}
+I joined StoneX in 2020 as a developer supporting the Base and Precious metals trading teams in London. In this role I worked closely with the sales and trading teams to deliver bespoke solutions to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
 
-- Full-stack development
-- Precious Metals & Derivatives trading
-- Risk Management
+In 2022 I was invited to join the PM trading desk as a trader, while retaining a technology-focussed remit. In this position I have continued to improve trading- and sales team daily workflows, which had become essential as the business has grown. To that end I have built and maintain a suite of utility applets relating to pricing, valuation, PnL, and regulatory capital which quickly became indispensable on desk.
 
-In 2022 I was invited to join the PM trading desk, while retaining a developer remit. In this position I have focussed on improving trading- and sales team daily workflows, which had become essential as the business has grown. To that end I have built and maintain a suite of utility applets relating to pricing, valuation, PnL, and regulatory capital which quickly became indispensable on desk.
-
-StoneX has a global precious metals presence and is one of the **largest non-bank players in the market**. In my trading role I am one of three London traders who manage **several billion USD of precious metals flow through our platform daily**, trading spot, forwards, options and futures across the main four precious metals. We also have a very active role in the sourcing, logistics and financing of our worldwide physical precious metals business.
+StoneX has a global precious metals presence and is one of the **largest non-bank institutions in the market**. In my trading role I am one of three London traders who manage **daily platform trading volumes of several billion USD**, trading spot, forwards, options and futures across the main four precious metals. We also have a very active role in the sourcing, logistics and financing of our worldwide physical precious metals business.
 
 I have completed CISI exams in Financial Regulation and Derivatives.
 
 ## StoneX | Front Office Metals Developer [2020<span>&#8211;</span>2022]
-
-- Full Stack
-- Node
-- Azure
-- Docker
-- Kubernetes
-- React
-- Express
-- Helm
-
-As a developer in the London Base and Precious metals trading office I work closely with the team to deliver bespoke software to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
 
 ## Teacher of Physics, Head of KS5 Science, Specialist Leader in Education (SLE) for Physics
 

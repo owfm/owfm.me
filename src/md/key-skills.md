@@ -8,12 +8,12 @@ order: 2
 
 ## Technical
 
-- **Full-Stack Development**: Proficient in TypeScript (Node.js/React; front-end focus).
+- **Full-Stack Development**: TypeScript (Node.js/React; front-end focus).
 - **Databases**: SQL (Postgres, SQLite) and NoSQL (most familiar with DynamoDB; some MongoDB).
 - **Containerization & Orchestration**: Docker, Kubernetes.
 - **IaC**: SST, Cloudformation, Bicep.
 - **Realtime Applications**: Lightstreamer, WebSockets.
-- **Cloud Platforms**: Advanced in AWS (Lambda, S3, EC2, RDS, DynamoDB, SQS, SNS, CloudWatch).
+- **Cloud Platforms**: Advanced with AWS (Lambda, S3, EC2, RDS, DynamoDB, SQS, SNS).
 - **Testing & Quality Assurance**: Jest, React Testing Library.
 - **CI/CD Pipelines**: GitHub Actions, Azure Pipelines, Seed.
 - **Architectures**: Event-driven systems (Apache Kafka), Microservices.
@@ -22,7 +22,7 @@ order: 2
 ## Financial
 
 - **Trading Experience**: 3+ years in front-office precious metals trading.
-- **Products Traded**: Spot, forwards, Asian swaps (averaging), OTC & cleared derivatives.
+- **Products Traded**: Spot, forwards, averaging, Asian swaps, OTC & cleared derivatives.
 - **Market Activities**: Market making, proprietary trading, physical metal trading.
 - **Risk & Valuation**: PnL reporting, trade/position valuation and risk management.
 - **Regulatory Compliance**: Expertise in trade reporting and adherence to regulations.

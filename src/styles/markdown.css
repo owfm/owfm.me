@@ -1,5 +1,5 @@
 article {
-  max-width: var(--main-content);
+  /* max-width: var(--main-content); */
   margin: 0 auto;
   line-height: 1.9;
 }
@@ -41,7 +41,7 @@ article ol li {
   background: var(--accent);
   border-radius: 0.25rem;
   padding: 0.2rem 0.5rem;
-  border: 1px solid var(--fg);
+  /* border: 1px solid var(--fg); */
   box-shadow:
     0 1px 3px 0 rgba(0, 0, 0, 0.1),
     0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -63,7 +63,6 @@ article ol li:not(:first-child) {
 article ul li.reset {
   display: flex;
   align-items: flex-start;
-
   list-style-type: none;
   margin-left: -0.5rem;
 }
