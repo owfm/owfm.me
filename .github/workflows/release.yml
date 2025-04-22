@@ -26,7 +26,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Set commit env var
         run: |
-          bunx vercel env rm COMMIT production && echo ${{ github.sha }} | bunx vercel env add COMMIT production
+          bunx vercel env rm COMMIT production --token ${{ secrets.VERCEL_TOKEN }} && echo ${{ github.sha }} | bunx vercel env add COMMIT production --token ${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
       - name: Bump version and push tag
         run: npm version patch -m "Release %s" && git push --follow-tags
       - name: Deploy to Vercel
