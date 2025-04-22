@@ -23,9 +23,9 @@ export default function SiteInfoTable() {
           <TableCell className="font-medium">Commit</TableCell>
           <TableCell>
             <Link
-              href={`https://www.github.com/owfm/${process.env.VERCEL_GIT_REPO_SLUG}/commit/${process.env.VERCEL_GIT_COMMIT_SHA}`}
+              href={`https://www.github.com/owfm/${process.env.VERCEL_GIT_REPO_SLUG}/commit/${process.env.COMMIT}`}
             >
-              {process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7)}
+              {process.env.COMMIT?.slice(0, 7)}
             </Link>
           </TableCell>
         </TableRow>
