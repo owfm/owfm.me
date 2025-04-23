@@ -2,8 +2,18 @@ import Post from '../../components/post'
 import getPosts from '../../lib/get-posts'
 import renderMarkdown from '../../lib/render-markdown'
 
-export const metadata = {
-  title: 'Post',
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  let posts = getPosts()
+  let thisPost = posts.find((p) => p.slug === slug)
+
+  return {
+    title: thisPost?.category,
+  }
 }
 
 export default async function Page({

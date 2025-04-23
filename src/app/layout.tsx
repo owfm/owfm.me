@@ -9,8 +9,7 @@ import '../styles/syntax.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://www.olliemansell.co.uk'),
-
-  title: 'Ollie Mansell | %s',
+  title: { template: 'Ollie Mansell | %s', default: 'Ollie Mansell CV' },
   description: 'Personal CV of Ollie Mansell',
   authors: [{ name: 'Ollie Mansell' }],
 }
