@@ -1,7 +1,7 @@
 ---
 title: culture and company fit
 slug: culture-fit
-category: culture
+category: Culture and Company Fit
 order: 6
 ---
 

@@ -2,7 +2,7 @@
 title: key skills
 slug: key-skills
 date: Feb 8, 2021
-category: key skills
+category: Key Skills
 order: 2
 ---
 

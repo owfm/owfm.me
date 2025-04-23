@@ -1,7 +1,7 @@
 ---
 title: developer experience
 slug: developer-experience
-category: dev
+category: Dev Experience
 order: 3
 ---
 
@@ -49,7 +49,14 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 
 1. React
 1. AG-Grid
-   **SonarQube Integration**: Integrated SonarQube into the CI/CD workflow for static code analysis and quality checks.
+
+**SonarQube Integration**: Integrated SonarQube into the CI/CD workflow for static code analysis and quality checks.
+
+**Confluent Cloud Migration**: Oversaw migration from on-prem K8S deployment of Kafka to use a cloud-based vendor solution.
+
+1. Ansible
+1. Apache Kafka
+1. Helm
 
 ## Stylus Education, London (2019–2020; 2024–Present, Freelance)
 

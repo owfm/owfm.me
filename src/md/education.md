@@ -2,7 +2,7 @@
 title: education
 slug: education
 date: July 11, 2020
-category: education
+category: Education
 order: 5
 ---
 

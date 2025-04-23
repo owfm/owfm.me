@@ -2,7 +2,7 @@
 title: profile
 slug: profile
 date: July 11, 2020
-category: profile
+category: Profile
 order: 1
 ---
 
