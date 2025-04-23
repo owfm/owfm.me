@@ -1,5 +1,5 @@
 import { Post } from '../../lib/get-posts'
-import { TextEntry } from '../entry/text'
+import { PageLink } from '../entry/text'
 import styles from './index.module.css'
 
 type Props = {
@@ -14,10 +14,9 @@ const Posts = ({ posts }: Props) => {
           .sort((a, b) => a.order - b.order)
           .map((post) => {
             return (
-              <TextEntry
+              <PageLink
                 key={`post-item-${post.slug}`}
                 href={post.slug}
-                category={post.category as any}
                 title={`${post.title}`}
               />
             )

@@ -12,7 +12,7 @@ const Footer = () => {
         @afewwilliams
       </Link>
       <Link href="https://github.com/owfm" external gray>
-        gh
+        github
       </Link>
       <Link href="https://medium.com/@oliverwfmansell" external gray>
         medium
@@ -20,7 +20,6 @@ const Footer = () => {
       <Link className="ml-auto" href="/about" gray>
         v{version}
       </Link>
-      {/* <SiteVersion /> */}
     </footer>
   )
 }
