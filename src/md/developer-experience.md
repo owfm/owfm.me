@@ -7,9 +7,7 @@ order: 3
 
 ## StoneX, London (2020–Present, Full Time)
 
-StoneX is a Fortune 100 multinational providing commodity trading services. As part of the metals front-office development team, I focus on greenfield projects supporting base- and precious-metal trading operations.
-
-### Selected Projects
+StoneX is a Fortune 100 multinational providing commodity trading services. As part of the metals front-office development team, I focus on greenfield projects supporting base- and precious-metal trading operations. A selection of projects I've completed are outlined below.
 
 **Forwards Pricer**: Developed a Next.js application for pricing precious metals forwards. Features include forward curve skew control, markup/spread curve adjustments, and interpolation for broken dates. I also designed and implemented an averaging and Asian swap pricer for accurately pricing more complex structures. This pricer is now integrated with the firms central market data team and is used for deals with notional values of hundreds of millions of dollars every day and has become central to both sales and trading's pricing workflows.
 
@@ -96,7 +94,16 @@ As a key member of the Stylus Education team, I designed, built and deployed the
 
 ## Finura Partners, London (2019; 2024–2025, Freelance)
 
-Streamlined client onboarding processes for this financial services firm.
+This successful and rapidly-growing financial advisory firm enlisted me in a freelance capacity to help streamline some of their business processes.
+
+- **Report Tool**: I build a Next.js web application to facilitate quick and easy completion of annual client summary reports. The application allows users to complete a large, complex form and have it auto-generate a correctly formatted PDF report. The app allows admin users to pre-define pro-forma fields, add/edit/update available drop-down options for form items, and manage user access. This application has been in use for over a year and has drastically reduced time spent by adivsors and admin staff with compiling, editing and formatting these reports.
+
+1. AWS / SST
+1. DynamoDB
+1. NextJS
+1. OAuth
+1. react-hook-form
+1. shadcn
 
 Frontend SPA: Developed a dynamic form interface for client data entry.
 
