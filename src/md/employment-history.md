@@ -7,11 +7,13 @@ order: 4
 
 ## StoneX | Precious Metals Trading & Technology [2020<span>&#8211;</span>now]
 
-I joined StoneX in 2020 as a developer supporting the Base and Precious metals trading teams in London. In this role I worked closely with the sales and trading teams to deliver bespoke solutions to support and streamline their trading workflows. Please see my **<a href="/developer-experience">developer experience</a>** for more.
+I joined StoneX in 2020 as a developer supporting the Base and Precious metals trading teams in London. In this role I worked closely with the sales and trading teams to deliver bespoke solutions to support and streamline their trading workflows.
 
-In 2022 I was invited to join the PM trading desk as a trader, while retaining a technology-focussed remit. In this position I have continued to improve trading- and sales team daily workflows, which had become essential as the business has grown. To that end I have built and maintain a suite of utility applets relating to pricing, valuation, PnL, and regulatory capital which quickly became indispensable on desk.
+In 2022 I was invited to join the PM trading desk as a trader, while retaining a technology-focussed remit. In this position I have continued to improve trading- and sales team daily workflows, which had become essential as the business has grown. To that end I have built and maintain a suite of utility applets relating to pricing, valuation, PnL, and regulatory capital which quickly became indispensable on desk. Please see my **<a href="/developer-experience">developer experience</a>** for more detail on these projects.
 
 StoneX has a global precious metals presence and is one of the **largest non-bank institutions in the market**. In my trading role I am one of three London traders who manage **daily platform trading volumes of several billion USD**, trading spot, forwards, options and futures across the main four precious metals. We also have a very active role in the sourcing, logistics and financing of our worldwide physical precious metals business.
+
+In addition to my day-to-day client-facing trading responsibilities I have also undertaken extensive work around improving PnL calculation and reporting as well as capital requirement and liquidity optimisation.
 
 I have completed CISI exams in Financial Regulation and Derivatives.
 

@@ -11,7 +11,7 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 
 ### Selected Projects
 
-**Forwards Pricer**: Developed a Next.js application for pricing precious metals forwards. Features include forward curve skew control, markup/spread curve adjustments, and interpolation for broken dates. I also designed and implemented an averaging and Asian swap pricer for accurately pricing more complex structures. This pricer is now used for deals with notional values of hundreds of millions of dollars every day and has become central to both sales and trading's pricing workflows.
+**Forwards Pricer**: Developed a Next.js application for pricing precious metals forwards. Features include forward curve skew control, markup/spread curve adjustments, and interpolation for broken dates. I also designed and implemented an averaging and Asian swap pricer for accurately pricing more complex structures. This pricer is now integrated with the firms central market data team and is used for deals with notional values of hundreds of millions of dollars every day and has become central to both sales and trading's pricing workflows.
 
 1. Next.js
 1. TypeScript
@@ -19,7 +19,7 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 1. Websockets
 1. Redis
 
-**RegCap Playground**: Built a React tool allowing front office users to simulate the impact of trades on regulatory capital requirements. I worked closely with the treasury team and our regulatory accountants to validate this tool, and in the process identified a long-standing calculation error, fixing which led to a material improvement of our capital efficiency.
+**RegCap Playground**: Built a React tool allowing front office users to simulate the impact of trades on regulatory capital requirements. I worked closely with the treasury team and our regulatory accountants to validate this tool. During this project I identified a long-standing error in the existing calculation, fixing which led to a material improvement of our entitiy's capital efficiency.
 
 1. React
 1. APIs
@@ -33,17 +33,18 @@ StoneX is a Fortune 100 multinational providing commodity trading services. As p
 1. FIX protocol
 1. Kafka
 
-**Credit Optimization Tool**: Created a React-based tool for visualizing credit line allocation versus revenue. Presented it to EXCO as a potential strategic tool for broader adoption.
+**Credit Optimization Tool**: Created a React-based tool for visualizing credit line allocation versus revenue across different client and trading teams. I presented this to the group EXCO as a potential strategic tool for broader adoption.
 
 1. React
 1. Express
 1. Highcharts
 1. SQL
 
-**CI/CD Pipelines**: Overhauled CI/CD pipelines to enable production-like unit testing and automated semantic versioning for microservices.
+**CI/CD Pipelines**: Overhauled CI/CD pipelines to enable production-like unit testing and automated semantic versioning for our releases, which was rolled out across all microservices.
 
 1. Azure DevOps
 1. Docker
+1. K8S
 
 **Trade Blotter**: Designed a React micro-frontend for querying trade data via an API and displaying results in an interactive table.
 
@@ -109,6 +110,6 @@ Backend API: Built a secure API to integrate with Google Apps for data synchroni
 
 ## Open Source Contribution – Pyairtable (2020)
 
-Optimized batch operations in the Airtable Python library to [improve performance by ~10x](https://github.com/gtalarico/airtable-python-wrapper/pull/88).
+While using this tool for project work I identified an optimization to [speed up batch operations by a factor of ~10x](https://github.com/gtalarico/airtable-python-wrapper/pull/88).
 
 1. Python
