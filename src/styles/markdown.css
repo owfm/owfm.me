@@ -5,7 +5,7 @@ article {
 }
 
 article > * + * {
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 
 article a {
@@ -17,6 +17,7 @@ article a {
 }
 
 article p {
+  margin-top: 2em;
   color: var(--article-color);
 }
 

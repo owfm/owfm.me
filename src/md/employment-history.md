@@ -5,7 +5,9 @@ category: Employment
 order: 4
 ---
 
-## StoneX | Precious Metals Trading & Technology [2020<span>&#8211;</span>now]
+## Precious Metals Trading & Technology
+
+### StoneX, London (2020<span>&#8211;</span>now)
 
 I joined StoneX in 2020 as a developer supporting the Base and Precious metals trading teams in London. In this role I worked closely with the sales and trading teams to deliver bespoke solutions to support and streamline their trading workflows.
 
@@ -17,9 +19,9 @@ In addition to my day-to-day client-facing trading responsibilities I have also 
 
 I have completed CISI exams in Financial Regulation and Derivatives.
 
-## StoneX | Front Office Metals Developer [2020<span>&#8211;</span>2022]
-
 ## Teacher of Physics, Head of KS5 Science, Specialist Leader in Education (SLE) for Physics
+
+### Holy Family Catholic School, Walthamstow (2015<span>&#8211;</span>2020)
 
 1. Mentoring
 1. Leadership
@@ -34,7 +36,7 @@ I’m proud that my A-level students’ progress was recognised as being in the 
 
 ## Technical Safety and Risk Engineer
 
-### Xodus Group, Perth Australia [2011–2014] & RPS Risk Management, Warrington UK (2008–2011)
+### Xodus Group, Perth Australia (2011–2014) & RPS Risk Management, Warrington UK (2008–2011)
 
 1. SIL Assessment
 1. Fault/Event Tree Analysis
